@@ -3,13 +3,22 @@ import Toybox.WatchUi;
 
 class QuickWorkoutDelegate extends WatchUi.BehaviorDelegate {
 
-    function initialize() {
+    var _view;
+
+    function initialize(view) {
         BehaviorDelegate.initialize();
+        _view = view;
     }
 
-    function onMenu() as Boolean {
-        WatchUi.pushView(new Rez.Menus.MainMenu(), new QuickWorkoutMenuDelegate(), WatchUi.SLIDE_UP);
+    // Top button: pause/resume only.
+    function onSelect() as Boolean {
+        getApp().togglePause();
         return true;
     }
 
+    // Bottom/back button: never end immediately; ask first.
+    function onBack() as Boolean {
+        _view.showEndConfirmation();
+        return true;
+    }
 }
