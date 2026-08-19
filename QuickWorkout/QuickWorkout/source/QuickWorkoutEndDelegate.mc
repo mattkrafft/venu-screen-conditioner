@@ -12,9 +12,10 @@ class QuickWorkoutEndDelegate extends WatchUi.ConfirmationDelegate {
         if (response == WatchUi.CONFIRM_YES) {
             getApp().saveAndFinish();
             System.exit();
-        } else {
-            WatchUi.popView(WatchUi.SLIDE_IMMEDIATE);
         }
+
+        // Garmin dismisses the confirmation view automatically on NO/CANCEL.
+        // Do not pop the view manually; that can pop the workout view too.
         return true;
     }
 }
