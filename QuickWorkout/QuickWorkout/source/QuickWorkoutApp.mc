@@ -3,9 +3,12 @@ import Toybox.Application;
 import Toybox.Lang;
 import Toybox.Sensor;
 import Toybox.System;
+import Toybox.UserProfile;
 import Toybox.WatchUi;
 
 class QuickWorkoutApp extends Application.AppBase {
+
+    const VITALITY_GOAL_MS = 2700000; // 45 minutes
 
     var session = null;
     var currentHeartRate = null;
@@ -15,11 +18,18 @@ class QuickWorkoutApp extends Application.AppBase {
     var accumulatedMs = 0;
     var runStartedMs = 0;
 
+    var maxHeartRate = null;
+    var vitalityThreshold = null;
+    var aboveThreshold = false;
+    var vitalityStartedMs = 0;
+    var vitalityAchieved = false;
+
     function initialize() {
         AppBase.initialize();
     }
 
     function onStart(state as Dictionary?) as Void {
+        loadVitalityTarget();
         startHeartRate();
         startWorkout();
     }
@@ -29,14 +39,43 @@ class QuickWorkoutApp extends Application.AppBase {
         Sensor.setEnabledSensors([]);
     }
 
+    function loadVitalityTarget() as Void {
+        try {
+            var zones = UserProfile.getHeartRateZones(UserProfile.HR_ZONE_SPORT_GENERIC);
+            if (zones != null && zones.size() >= 6) {
+                maxHeartRate = zones[5];
+                vitalityThreshold = ((maxHeartRate * 60 + 99) / 100).toNumber();
+            }
+        } catch (e) {
+            maxHeartRate = null;
+            vitalityThreshold = null;
+        }
+    }
+
     function startHeartRate() as Void {
-        // Explicitly request the Venu's onboard optical HR sensor for this app.
         Sensor.setEnabledSensors([Sensor.SENSOR_ONBOARD_HEARTRATE]);
         Sensor.enableSensorEvents(method(:onSensor));
     }
 
     function onSensor(info as Sensor.Info) as Void {
         currentHeartRate = info.heartRate;
+
+        if (running && !vitalityAchieved && vitalityThreshold != null && currentHeartRate != null) {
+            if (currentHeartRate >= vitalityThreshold) {
+                if (!aboveThreshold) {
+                    aboveThreshold = true;
+                    vitalityStartedMs = System.getTimer();
+                }
+
+                if (getVitalityMs() >= VITALITY_GOAL_MS) {
+                    vitalityAchieved = true;
+                }
+            } else {
+                aboveThreshold = false;
+                vitalityStartedMs = 0;
+            }
+        }
+
         WatchUi.requestUpdate();
     }
 
@@ -67,6 +106,11 @@ class QuickWorkoutApp extends Application.AppBase {
             accumulatedMs += elapsedSinceRunStart();
             session.stop();
             running = false;
+
+            if (!vitalityAchieved) {
+                aboveThreshold = false;
+                vitalityStartedMs = 0;
+            }
         } else {
             session.start();
             runStartedMs = System.getTimer();
@@ -87,8 +131,22 @@ class QuickWorkoutApp extends Application.AppBase {
         var now = System.getTimer();
         var delta = now - runStartedMs;
         if (delta < 0) {
-            // getTimer() eventually rolls over; a normal workout will almost
-            // never cross it, but don't allow a negative display if it does.
+            return 0;
+        }
+        return delta;
+    }
+
+    function getVitalityMs() as Number {
+        if (vitalityAchieved) {
+            return VITALITY_GOAL_MS;
+        }
+
+        if (!running || !aboveThreshold || vitalityStartedMs == 0) {
+            return 0;
+        }
+
+        var delta = System.getTimer() - vitalityStartedMs;
+        if (delta < 0) {
             return 0;
         }
         return delta;
