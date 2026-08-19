@@ -21,6 +21,7 @@ class QuickWorkoutApp extends Application.AppBase {
     var maxHeartRate = null;
     var vitalityThreshold = null;
     var aboveThreshold = false;
+    var vitalityAccumulatedMs = 0;
     var vitalityStartedMs = 0;
     var vitalityAchieved = false;
 
@@ -66,17 +67,33 @@ class QuickWorkoutApp extends Application.AppBase {
                     aboveThreshold = true;
                     vitalityStartedMs = System.getTimer();
                 }
+            } else if (aboveThreshold) {
+                commitVitalityInterval();
+            }
 
-                if (getVitalityMs() >= VITALITY_GOAL_MS) {
-                    vitalityAchieved = true;
-                }
-            } else {
-                aboveThreshold = false;
-                vitalityStartedMs = 0;
+            if (getVitalityMs() >= VITALITY_GOAL_MS) {
+                commitVitalityInterval();
+                vitalityAccumulatedMs = VITALITY_GOAL_MS;
+                vitalityAchieved = true;
             }
         }
 
         WatchUi.requestUpdate();
+    }
+
+    function commitVitalityInterval() as Void {
+        if (!aboveThreshold || vitalityStartedMs == 0) {
+            aboveThreshold = false;
+            vitalityStartedMs = 0;
+            return;
+        }
+
+        var delta = System.getTimer() - vitalityStartedMs;
+        if (delta > 0) {
+            vitalityAccumulatedMs += delta;
+        }
+        aboveThreshold = false;
+        vitalityStartedMs = 0;
     }
 
     function startWorkout() as Void {
@@ -106,11 +123,7 @@ class QuickWorkoutApp extends Application.AppBase {
             accumulatedMs += elapsedSinceRunStart();
             session.stop();
             running = false;
-
-            if (!vitalityAchieved) {
-                aboveThreshold = false;
-                vitalityStartedMs = 0;
-            }
+            commitVitalityInterval();
         } else {
             session.start();
             runStartedMs = System.getTimer();
@@ -141,21 +154,26 @@ class QuickWorkoutApp extends Application.AppBase {
             return VITALITY_GOAL_MS;
         }
 
-        if (!running || !aboveThreshold || vitalityStartedMs == 0) {
-            return 0;
+        var total = vitalityAccumulatedMs;
+        if (running && aboveThreshold && vitalityStartedMs != 0) {
+            var delta = System.getTimer() - vitalityStartedMs;
+            if (delta > 0) {
+                total += delta;
+            }
         }
 
-        var delta = System.getTimer() - vitalityStartedMs;
-        if (delta < 0) {
-            return 0;
+        if (total > VITALITY_GOAL_MS) {
+            return VITALITY_GOAL_MS;
         }
-        return delta;
+        return total;
     }
 
     function saveAndFinish() as Void {
         if (session == null || finished) {
             return;
         }
+
+        commitVitalityInterval();
 
         if (running) {
             accumulatedMs += elapsedSinceRunStart();
