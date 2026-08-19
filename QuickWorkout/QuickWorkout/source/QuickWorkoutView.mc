@@ -37,47 +37,64 @@ class QuickWorkoutView extends WatchUi.View {
         dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_BLACK);
         dc.clear();
 
-        // Current time is the dominant item on the screen.
-        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(centerX, 30, Graphics.FONT_LARGE, formatClock(), Graphics.TEXT_JUSTIFY_CENTER);
+        // Current time is the dominant element.
+        dc.setColor(Graphics.COLOR_CYAN, Graphics.COLOR_TRANSPARENT);
+        dc.drawText(centerX, 28, Graphics.FONT_LARGE, formatClock(), Graphics.TEXT_JUSTIFY_CENTER);
 
         dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(centerX, 105, Graphics.FONT_SMALL, "ELAPSED", Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText(centerX, 102, Graphics.FONT_XTINY, "ELAPSED", Graphics.TEXT_JUSTIFY_CENTER);
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(centerX, 128, Graphics.FONT_MEDIUM, formatElapsed(app.getElapsedMs()), Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText(centerX, 124, Graphics.FONT_MEDIUM, formatElapsed(app.getElapsedMs()), Graphics.TEXT_JUSTIFY_CENTER);
 
+        drawHeartRateRow(dc, app, centerX);
+        drawVitality(dc, app, centerX);
+
+        var status = app.running ? "RUNNING" : "PAUSED";
+        dc.setColor(app.running ? Graphics.COLOR_GREEN : Graphics.COLOR_YELLOW, Graphics.COLOR_TRANSPARENT);
+        dc.drawText(centerX, 350, Graphics.FONT_XTINY, status, Graphics.TEXT_JUSTIFY_CENTER);
+    }
+
+    function drawHeartRateRow(dc as Dc, app, centerX) as Void {
         var hrText = "--";
         if (app.currentHeartRate != null) {
             hrText = app.currentHeartRate.format("%d");
         }
 
+        var targetText = "--";
+        if (app.vitalityThreshold != null) {
+            targetText = app.vitalityThreshold.format("%d");
+        }
+
         dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(centerX, 183, Graphics.FONT_SMALL, "HEART RATE", Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText(112, 183, Graphics.FONT_XTINY, "HR", Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText(278, 183, Graphics.FONT_XTINY, "ZONE 2+", Graphics.TEXT_JUSTIFY_CENTER);
+
+        var hrColor = Graphics.COLOR_WHITE;
+        if (app.currentHeartRate != null && app.vitalityThreshold != null) {
+            hrColor = app.currentHeartRate >= app.vitalityThreshold ? Graphics.COLOR_GREEN : Graphics.COLOR_RED;
+        }
+
+        dc.setColor(hrColor, Graphics.COLOR_TRANSPARENT);
+        dc.drawText(112, 207, Graphics.FONT_MEDIUM, hrText, Graphics.TEXT_JUSTIFY_CENTER);
+
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(centerX, 207, Graphics.FONT_MEDIUM, hrText + " bpm", Graphics.TEXT_JUSTIFY_CENTER);
-
-        drawVitality(dc, app, centerX);
-
-        var status = app.running ? "RUNNING" : "PAUSED";
-        dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(centerX, 350, Graphics.FONT_XTINY, status, Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText(278, 207, Graphics.FONT_MEDIUM, targetText, Graphics.TEXT_JUSTIFY_CENTER);
     }
 
     function drawVitality(dc as Dc, app, centerX) as Void {
         if (app.vitalityThreshold == null) {
             dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
-            dc.drawText(centerX, 268, Graphics.FONT_SMALL, "VITALITY TARGET UNAVAILABLE", Graphics.TEXT_JUSTIFY_CENTER);
+            dc.drawText(centerX, 267, Graphics.FONT_SMALL, "VITALITY TARGET UNAVAILABLE", Graphics.TEXT_JUSTIFY_CENTER);
             return;
         }
 
         var vitalityMs = app.getVitalityMs();
-        var thresholdText = "60% MAX = " + app.vitalityThreshold.format("%d") + " bpm";
 
         dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(centerX, 258, Graphics.FONT_XTINY, thresholdText, Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText(centerX, 260, Graphics.FONT_XTINY, "ABOVE ZONE 2", Graphics.TEXT_JUSTIFY_CENTER);
 
         if (app.vitalityAchieved) {
-            dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+            dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_TRANSPARENT);
             dc.drawText(centerX, 282, Graphics.FONT_SMALL, "15 POINT GOAL MET", Graphics.TEXT_JUSTIFY_CENTER);
         } else {
             dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
@@ -85,9 +102,9 @@ class QuickWorkoutView extends WatchUi.View {
         }
 
         var barX = 70;
-        var barY = 315;
+        var barY = 316;
         var barWidth = 250;
-        var barHeight = 12;
+        var barHeight = 11;
         var progress = vitalityMs.toFloat() / app.VITALITY_GOAL_MS.toFloat();
         if (progress > 1.0) {
             progress = 1.0;
@@ -96,7 +113,8 @@ class QuickWorkoutView extends WatchUi.View {
         dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_DK_GRAY);
         dc.fillRectangle(barX, barY, barWidth, barHeight);
 
-        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_WHITE);
+        dc.setColor(app.vitalityAchieved ? Graphics.COLOR_GREEN : Graphics.COLOR_CYAN,
+                    app.vitalityAchieved ? Graphics.COLOR_GREEN : Graphics.COLOR_CYAN);
         dc.fillRectangle(barX, barY, (barWidth * progress).toNumber(), barHeight);
     }
 
