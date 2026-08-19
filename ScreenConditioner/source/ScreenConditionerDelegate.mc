@@ -16,17 +16,11 @@ class ScreenConditionerDelegate extends WatchUi.BehaviorDelegate {
     }
 
     function onSelect() as Boolean {
-        _view.toggleRunning();
-        return true;
-    }
-
-    function onMenu() as Boolean {
-        _view.toggleRunning();
+        _view.nextMode();
         return true;
     }
 
     function onBack() as Boolean {
-        // Bottom/back button exits the app normally.
         return false;
     }
 }
