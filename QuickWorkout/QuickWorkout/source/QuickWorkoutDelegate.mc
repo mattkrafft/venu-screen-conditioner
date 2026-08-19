@@ -10,8 +10,19 @@ class QuickWorkoutDelegate extends WatchUi.BehaviorDelegate {
         _view = view;
     }
 
-    // Top button: pause/resume only.
+    // Consume screen taps so touching the display never pauses the workout.
+    function onTap(clickEvent as WatchUi.ClickEvent) as Boolean {
+        return true;
+    }
+
+    // Some Venu input paths report the upper button as Select.
     function onSelect() as Boolean {
+        getApp().togglePause();
+        return true;
+    }
+
+    // On the original Venu the upper physical button may be delivered as Menu.
+    function onMenu() as Boolean {
         getApp().togglePause();
         return true;
     }
