@@ -1,3 +1,4 @@
+import Toybox.Activity;
 import Toybox.ActivityRecording;
 import Toybox.Application;
 import Toybox.Lang;
@@ -18,6 +19,7 @@ class QuickWorkoutApp extends Application.AppBase {
     var accumulatedMs = 0;
     var runStartedMs = 0;
 
+    var heartRateZones = null;
     var maxHeartRate = null;
     var vitalityThreshold = null;
     var aboveThreshold = false;
@@ -42,13 +44,14 @@ class QuickWorkoutApp extends Application.AppBase {
 
     function loadVitalityTarget() as Void {
         try {
-            var zones = UserProfile.getHeartRateZones(UserProfile.HR_ZONE_SPORT_GENERIC);
-            if (zones != null && zones.size() >= 6) {
-                maxHeartRate = zones[5];
+            heartRateZones = UserProfile.getHeartRateZones(UserProfile.HR_ZONE_SPORT_GENERIC);
+            if (heartRateZones != null && heartRateZones.size() >= 6) {
+                maxHeartRate = heartRateZones[5];
                 // Garmin returns max Zone 1 at index 1, so Zone 2 begins one bpm higher.
-                vitalityThreshold = zones[1] + 1;
+                vitalityThreshold = heartRateZones[1] + 1;
             }
         } catch (e) {
+            heartRateZones = null;
             maxHeartRate = null;
             vitalityThreshold = null;
         }
@@ -80,6 +83,34 @@ class QuickWorkoutApp extends Application.AppBase {
         }
 
         WatchUi.requestUpdate();
+    }
+
+    function getHeartRateZone() as Number {
+        if (currentHeartRate == null || heartRateZones == null || heartRateZones.size() < 6) {
+            return 0;
+        }
+
+        if (currentHeartRate <= heartRateZones[1]) {
+            return 1;
+        } else if (currentHeartRate <= heartRateZones[2]) {
+            return 2;
+        } else if (currentHeartRate <= heartRateZones[3]) {
+            return 3;
+        } else if (currentHeartRate <= heartRateZones[4]) {
+            return 4;
+        }
+        return 5;
+    }
+
+    function getCalories() as Number {
+        try {
+            var info = Activity.getActivityInfo();
+            if (info != null && info.calories != null) {
+                return info.calories;
+            }
+        } catch (e) {
+        }
+        return 0;
     }
 
     function commitVitalityInterval() as Void {
