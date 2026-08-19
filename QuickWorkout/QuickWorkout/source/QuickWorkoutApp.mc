@@ -45,7 +45,8 @@ class QuickWorkoutApp extends Application.AppBase {
             var zones = UserProfile.getHeartRateZones(UserProfile.HR_ZONE_SPORT_GENERIC);
             if (zones != null && zones.size() >= 6) {
                 maxHeartRate = zones[5];
-                vitalityThreshold = ((maxHeartRate * 60 + 99) / 100).toNumber();
+                // Garmin returns max Zone 1 at index 1, so Zone 2 begins one bpm higher.
+                vitalityThreshold = zones[1] + 1;
             }
         } catch (e) {
             maxHeartRate = null;
