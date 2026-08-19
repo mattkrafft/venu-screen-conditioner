@@ -16,12 +16,17 @@ class ScreenConditionerDelegate extends WatchUi.BehaviorDelegate {
     }
 
     function onSelect() as Boolean {
-        _view.nextMode();
+        _view.toggleRunning();
+        return true;
+    }
+
+    function onMenu() as Boolean {
+        _view.toggleRunning();
         return true;
     }
 
     function onBack() as Boolean {
-        // Returning false allows the Venu's normal back behavior to exit.
+        // Bottom/back button exits the app normally.
         return false;
     }
 }
