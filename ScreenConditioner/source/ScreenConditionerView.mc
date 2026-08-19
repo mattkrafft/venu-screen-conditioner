@@ -58,6 +58,14 @@ class ScreenConditionerView extends WatchUi.View {
     function nextMode() as Void {
         _mode = (_mode + 1) % 3;
         _tick = 0;
+
+        // A screen tap should always produce visible feedback. If the app
+        // was paused with the top button, resume it while changing modes.
+        if (!_running) {
+            _running = true;
+            startTimer();
+        }
+
         WatchUi.requestUpdate();
     }
 
