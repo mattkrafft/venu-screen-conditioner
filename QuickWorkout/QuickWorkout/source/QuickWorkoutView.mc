@@ -38,7 +38,7 @@ class QuickWorkoutView extends WatchUi.View {
         dc.clear();
 
         // Current time is the dominant element.
-        dc.setColor(Graphics.COLOR_CYAN, Graphics.COLOR_TRANSPARENT);
+        dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_TRANSPARENT);
         dc.drawText(centerX, 28, Graphics.FONT_LARGE, formatClock(), Graphics.TEXT_JUSTIFY_CENTER);
 
         dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
@@ -113,8 +113,8 @@ class QuickWorkoutView extends WatchUi.View {
         dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_DK_GRAY);
         dc.fillRectangle(barX, barY, barWidth, barHeight);
 
-        dc.setColor(app.vitalityAchieved ? Graphics.COLOR_GREEN : Graphics.COLOR_CYAN,
-                    app.vitalityAchieved ? Graphics.COLOR_GREEN : Graphics.COLOR_CYAN);
+        dc.setColor(app.vitalityAchieved ? Graphics.COLOR_GREEN : Graphics.COLOR_BLUE,
+                    app.vitalityAchieved ? Graphics.COLOR_GREEN : Graphics.COLOR_BLUE);
         dc.fillRectangle(barX, barY, (barWidth * progress).toNumber(), barHeight);
     }
 
