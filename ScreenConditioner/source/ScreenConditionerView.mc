@@ -7,6 +7,7 @@ class ScreenConditionerView extends WatchUi.View {
     var _timer;
     var _mode = 0;
     var _tick = 0;
+    var _running = true;
 
     function initialize() {
         View.initialize();
@@ -18,15 +19,39 @@ class ScreenConditionerView extends WatchUi.View {
 
     function onShow() as Void {
         _tick = 0;
-        _timer.start(method(:onTimer), 100, true);
+        _running = true;
+        startTimer();
     }
 
     function onHide() as Void {
+        stopTimer();
+    }
+
+    function startTimer() as Void {
+        _timer.stop();
+        _timer.start(method(:onTimer), 100, true);
+    }
+
+    function stopTimer() as Void {
         _timer.stop();
     }
 
     function onTimer() as Void {
-        _tick += 1;
+        if (_running) {
+            _tick += 1;
+            WatchUi.requestUpdate();
+        }
+    }
+
+    function toggleRunning() as Void {
+        _running = !_running;
+
+        if (_running) {
+            startTimer();
+        } else {
+            stopTimer();
+        }
+
         WatchUi.requestUpdate();
     }
 
@@ -37,6 +62,12 @@ class ScreenConditionerView extends WatchUi.View {
     }
 
     function onUpdate(dc as Dc) as Void {
+        if (!_running) {
+            dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_BLACK);
+            dc.clear();
+            return;
+        }
+
         if (_mode == 0) {
             drawColorCycle(dc);
         } else if (_mode == 1) {
@@ -58,7 +89,6 @@ class ScreenConditionerView extends WatchUi.View {
     }
 
     function drawColorCycle(dc as Dc) as Void {
-        // Hold each full-screen color for 0.6 seconds.
         var colorIndex = (_tick / 6).toNumber();
         var color = getCycleColor(colorIndex);
         dc.setColor(color, color);
