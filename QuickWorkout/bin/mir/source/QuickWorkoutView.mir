@@ -1,0 +1,1322 @@
+[ @file = "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Graphics,1,14,22]; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Lang,2,14,18]; ]
+import Toybox.Lang;
+[ @file = "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [Math,3,14,18]; ]
+import Toybox.Math;
+[ @file = "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [System,4,14,20]; ]
+import Toybox.System;
+[ @file = "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc"; @line = 5; @symbol_importdef<0> = [Toybox,5,7,13]; @symbol_importdef<1> = [Timer,5,14,19]; ]
+import Toybox.Timer;
+[ @file = "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc"; @line = 6; @symbol_importdef<0> = [Toybox,6,7,13]; @symbol_importdef<1> = [WatchUi,6,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc"; @line = 8; @symbol_classdef = [QuickWorkoutView,8,6,22]; @symbol_extends<0> = [WatchUi,8,31,38]; @symbol_extends<1> = [View,8,39,43]; ]
+class QuickWorkoutView extends WatchUi.View {
+    [ @file = "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc"; @line = 8; ]
+    <init> {
+    }
+    [ @file = "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc"; @line = 8; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc"; @line = 10; @position = 8; @symbol_vardef = [_timer,10,8,14]; ]
+    var _timer;
+    [ @file = "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc"; @line = 12; @symbol_functiondef = [initialize,12,13,23]; ]
+    function initialize() as Void {
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_12_26_15_4_start:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 13 8 ]
+        symbol [ View %tmp.2 13 8 12 ];
+        %tmp.2 = getv ? :View;
+        symbol [ initialize %tmp.3 13 13 23 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 14 8 ]
+        symbol [ Timer %tmp.6 14 21 26 ];
+        %tmp.6 = getm $.Toybox.Timer;
+        symbol [ Timer %tmp.7 14 27 32 ];
+        %tmp.7 = getv function ? %tmp.6 :Timer;
+        %tmp.4 = newc %tmp.7 ();
+        symbol [ _timer ? 14 8 14 ];
+        putv self :_timer %tmp.4;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_12_26_15_4_stop:
+    }
+    [ @file = "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc"; @line = 17; @symbol_functiondef = [onLayout,17,13,21]; @symbol_param<0> = [dc,17,22,24]; @symbol_param<0>_type<0> = [Dc,17,28,30]; ]
+    function onLayout(dc as Dc) as Void {
+    }
+    [ @file = "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc"; @line = 20; @symbol_functiondef = [onShow,20,13,19]; ]
+    function onShow() as Void {
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_20_30_23_4_start:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 21 8 ]
+        symbol [ _timer %tmp.2 21 8 14 ];
+        %tmp.2 = getv ? :_timer;
+        symbol [ stop %tmp.3 21 15 19 ];
+        %tmp.3 = getv function %tmp.2 :stop;
+        invoke %tmp.2 %tmp.3();
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 22 8 ]
+        symbol [ _timer %tmp.5 22 8 14 ];
+        %tmp.5 = getv ? :_timer;
+        symbol [ start %tmp.6 22 15 20 ];
+        %tmp.6 = getv function %tmp.5 :start;
+        %tmp.7 = self;
+        symbol [ method %tmp.8 22 21 27 ];
+        %tmp.8 = getv function %tmp.7 :method;
+        %tmp.10 = const :onTimer;
+        symbol [ onTimer %tmp.10 22 29 36 const ];
+        %tmp.11 = invoke %tmp.7 %tmp.8(%tmp.10);
+        %tmp.12 = 1000;
+        %tmp.13 = true;
+        invoke %tmp.5 %tmp.6(%tmp.11, %tmp.12, %tmp.13);
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_20_30_23_4_stop:
+    }
+    [ @file = "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc"; @line = 25; @symbol_functiondef = [onHide,25,13,19]; ]
+    function onHide() as Void {
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_25_30_27_4_start:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 26 8 ]
+        symbol [ _timer %tmp.2 26 8 14 ];
+        %tmp.2 = getv ? :_timer;
+        symbol [ stop %tmp.3 26 15 19 ];
+        %tmp.3 = getv function %tmp.2 :stop;
+        invoke %tmp.2 %tmp.3();
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_25_30_27_4_stop:
+    }
+    [ @file = "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc"; @line = 29; @symbol_functiondef = [onTimer,29,13,20]; ]
+    function onTimer() as Void {
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_29_31_31_4_start:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 30 8 ]
+        symbol [ WatchUi %tmp.1 30 8 15 ];
+        %tmp.1 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.2 30 16 29 ];
+        %tmp.2 = getv function %tmp.1 :requestUpdate;
+        invoke %tmp.1 %tmp.2();
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_29_31_31_4_stop:
+    }
+    [ @file = "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc"; @line = 33; @symbol_functiondef = [onUpdate,33,13,21]; @symbol_param<0> = [dc,33,22,24]; @symbol_param<0>_type<0> = [Dc,33,28,30]; ]
+    function onUpdate(dc as Dc) as Void {
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_33_40_58_4_start:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 34 8 ]
+        [ "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_33_40_58_4_start" "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_33_40_58_4_stop" ]
+        %width.1 = local;
+        symbol [ width %width.1 34 12 17 ];
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 34 20 22 ];
+        symbol [ getWidth %tmp.2 34 23 31 ];
+        %tmp.2 = getv function %tmp.1 :getWidth;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %width.1 %tmp.3;
+        symbol [ width %width.1 34 12 17 ];
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 35 8 ]
+        [ "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_33_40_58_4_start" "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_33_40_58_4_stop" ]
+        %height.2 = local;
+        symbol [ height %height.2 35 12 18 ];
+        %tmp.4 = lgetv %dc;
+        symbol [ dc %tmp.4 35 21 23 ];
+        symbol [ getHeight %tmp.5 35 24 33 ];
+        %tmp.5 = getv function %tmp.4 :getHeight;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        lputv %height.2 %tmp.6;
+        symbol [ height %height.2 35 12 18 ];
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 36 8 ]
+        [ "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_33_40_58_4_start" "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_33_40_58_4_stop" ]
+        %centerX.3 = local;
+        symbol [ centerX %centerX.3 36 12 19 ];
+        %tmp.7 = lgetv %width.1;
+        symbol [ width %tmp.7 36 22 27 ];
+        %tmp.8 = 2;
+        %tmp.9 = div %tmp.7 %tmp.8;
+        lputv %centerX.3 %tmp.9;
+        symbol [ centerX %centerX.3 36 12 19 ];
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 37 8 ]
+        [ "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_33_40_58_4_start" "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_33_40_58_4_stop" ]
+        %centerY.4 = local;
+        symbol [ centerY %centerY.4 37 12 19 ];
+        %tmp.10 = lgetv %height.2;
+        symbol [ height %tmp.10 37 22 28 ];
+        %tmp.11 = 2;
+        %tmp.12 = div %tmp.10 %tmp.11;
+        lputv %centerY.4 %tmp.12;
+        symbol [ centerY %centerY.4 37 12 19 ];
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 38 8 ]
+        [ "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_33_40_58_4_start" "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_33_40_58_4_stop" ]
+        %app.5 = local;
+        symbol [ app %app.5 38 12 15 ];
+        %tmp.13 = self;
+        symbol [ getApp %tmp.14 38 18 24 ];
+        %tmp.14 = getv function %tmp.13 :getApp;
+        %tmp.15 = invoke %tmp.13 %tmp.14();
+        lputv %app.5 %tmp.15;
+        symbol [ app %app.5 38 12 15 ];
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 40 8 ]
+        %tmp.16 = lgetv %dc;
+        symbol [ dc %tmp.16 40 8 10 ];
+        symbol [ setColor %tmp.17 40 11 19 ];
+        %tmp.17 = getv function %tmp.16 :setColor;
+        symbol [ Graphics %tmp.18 40 20 28 ];
+        %tmp.18 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.19 40 29 40 ];
+        %tmp.19 = getv %tmp.18 :COLOR_BLACK;
+        symbol [ Graphics %tmp.20 40 42 50 ];
+        %tmp.20 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.21 40 51 62 ];
+        %tmp.21 = getv %tmp.20 :COLOR_BLACK;
+        invoke %tmp.16 %tmp.17(%tmp.19, %tmp.21);
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 41 8 ]
+        %tmp.22 = lgetv %dc;
+        symbol [ dc %tmp.22 41 8 10 ];
+        symbol [ clear %tmp.23 41 11 16 ];
+        %tmp.23 = getv function %tmp.22 :clear;
+        invoke %tmp.22 %tmp.23();
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 43 8 ]
+        %tmp.24 = self;
+        symbol [ drawProgressRing %tmp.25 43 8 24 ];
+        %tmp.25 = getv function %tmp.24 :drawProgressRing;
+        %tmp.26 = lgetv %dc;
+        symbol [ dc %tmp.26 43 25 27 ];
+        %tmp.27 = lgetv %app.5;
+        symbol [ app %tmp.27 43 29 32 ];
+        %tmp.28 = lgetv %centerX.3;
+        symbol [ centerX %tmp.28 43 34 41 ];
+        %tmp.29 = lgetv %centerY.4;
+        symbol [ centerY %tmp.29 43 43 50 ];
+        invoke %tmp.24 %tmp.25(%tmp.26, %tmp.27, %tmp.28, %tmp.29);
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 45 8 ]
+        %tmp.30 = lgetv %dc;
+        symbol [ dc %tmp.30 45 8 10 ];
+        symbol [ setColor %tmp.31 45 11 19 ];
+        %tmp.31 = getv function %tmp.30 :setColor;
+        symbol [ Graphics %tmp.32 45 20 28 ];
+        %tmp.32 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLUE %tmp.33 45 29 39 ];
+        %tmp.33 = getv %tmp.32 :COLOR_BLUE;
+        symbol [ Graphics %tmp.34 45 41 49 ];
+        %tmp.34 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.35 45 50 67 ];
+        %tmp.35 = getv %tmp.34 :COLOR_TRANSPARENT;
+        invoke %tmp.30 %tmp.31(%tmp.33, %tmp.35);
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 46 8 ]
+        %tmp.36 = lgetv %dc;
+        symbol [ dc %tmp.36 46 8 10 ];
+        symbol [ drawText %tmp.37 46 11 19 ];
+        %tmp.37 = getv function %tmp.36 :drawText;
+        %tmp.38 = lgetv %centerX.3;
+        symbol [ centerX %tmp.38 46 20 27 ];
+        %tmp.39 = 50;
+        symbol [ Graphics %tmp.40 46 33 41 ];
+        %tmp.40 = getm $.Toybox.Graphics;
+        symbol [ FONT_MEDIUM %tmp.41 46 42 53 ];
+        %tmp.41 = getv %tmp.40 :FONT_MEDIUM;
+        %tmp.42 = self;
+        symbol [ formatClock %tmp.43 46 55 66 ];
+        %tmp.43 = getv function %tmp.42 :formatClock;
+        %tmp.44 = invoke %tmp.42 %tmp.43();
+        symbol [ Graphics %tmp.45 46 70 78 ];
+        %tmp.45 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.46 46 79 98 ];
+        %tmp.46 = getv %tmp.45 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.36 %tmp.37(%tmp.38, %tmp.39, %tmp.41, %tmp.44, %tmp.46);
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 48 8 ]
+        %tmp.47 = self;
+        symbol [ drawDivider %tmp.48 48 8 19 ];
+        %tmp.48 = getv function %tmp.47 :drawDivider;
+        %tmp.49 = lgetv %dc;
+        symbol [ dc %tmp.49 48 20 22 ];
+        %tmp.50 = 105;
+        invoke %tmp.47 %tmp.48(%tmp.49, %tmp.50);
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 51 8 ]
+        %tmp.51 = lgetv %dc;
+        symbol [ dc %tmp.51 51 8 10 ];
+        symbol [ setColor %tmp.52 51 11 19 ];
+        %tmp.52 = getv function %tmp.51 :setColor;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_51_20_51_66_begin:
+        %tmp.53 = lgetv %app.5;
+        symbol [ app %tmp.53 51 20 23 ];
+        symbol [ running %tmp.54 51 24 31 ];
+        %tmp.54 = getv %tmp.53 :running;
+        bf %tmp.54 @C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_51_20_51_66_else_false;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_51_20_51_66_true:
+        symbol [ Graphics %tmp.55 51 34 42 ];
+        %tmp.55 = getm $.Toybox.Graphics;
+        symbol [ COLOR_GREEN %tmp.56 51 43 54 ];
+        %tmp.56 = getv %tmp.55 :COLOR_GREEN;
+        push %tmp.56;
+        goto @C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_51_20_51_66_end;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_51_20_51_66_else_false:
+        symbol [ Graphics %tmp.57 51 57 65 ];
+        %tmp.57 = getm $.Toybox.Graphics;
+        symbol [ COLOR_YELLOW %tmp.58 51 66 78 ];
+        %tmp.58 = getv %tmp.57 :COLOR_YELLOW;
+        push %tmp.58;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_51_20_51_66_end:
+        %tmp.59 = phi [%tmp.54 @C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_51_20_51_66_begin] [%tmp.56 @C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_51_20_51_66_true] [%tmp.58 @C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_51_20_51_66_else_false] [%tmp.59 @C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_51_20_51_66_end];
+        symbol [ Graphics %tmp.60 51 80 88 ];
+        %tmp.60 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.61 51 89 106 ];
+        %tmp.61 = getv %tmp.60 :COLOR_TRANSPARENT;
+        invoke %tmp.51 %tmp.52(%tmp.59, %tmp.61);
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 52 8 ]
+        %tmp.62 = lgetv %dc;
+        symbol [ dc %tmp.62 52 8 10 ];
+        symbol [ drawText %tmp.63 52 11 19 ];
+        %tmp.63 = getv function %tmp.62 :drawText;
+        %tmp.64 = lgetv %centerX.3;
+        symbol [ centerX %tmp.64 52 20 27 ];
+        %tmp.65 = 118;
+        symbol [ Graphics %tmp.66 52 34 42 ];
+        %tmp.66 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.67 52 43 53 ];
+        %tmp.67 = getv %tmp.66 :FONT_SMALL;
+        %tmp.68 = self;
+        symbol [ formatElapsed %tmp.69 52 55 68 ];
+        %tmp.69 = getv function %tmp.68 :formatElapsed;
+        %tmp.70 = lgetv %app.5;
+        symbol [ app %tmp.70 52 69 72 ];
+        symbol [ getElapsedMs %tmp.71 52 73 85 ];
+        %tmp.71 = getv function %tmp.70 :getElapsedMs;
+        %tmp.72 = invoke %tmp.70 %tmp.71();
+        %tmp.73 = invoke %tmp.68 %tmp.69(%tmp.72);
+        symbol [ Graphics %tmp.74 52 90 98 ];
+        %tmp.74 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.75 52 99 118 ];
+        %tmp.75 = getv %tmp.74 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.62 %tmp.63(%tmp.64, %tmp.65, %tmp.67, %tmp.73, %tmp.75);
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 54 8 ]
+        %tmp.76 = self;
+        symbol [ drawDivider %tmp.77 54 8 19 ];
+        %tmp.77 = getv function %tmp.76 :drawDivider;
+        %tmp.78 = lgetv %dc;
+        symbol [ dc %tmp.78 54 20 22 ];
+        %tmp.79 = 160;
+        invoke %tmp.76 %tmp.77(%tmp.78, %tmp.79);
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 55 8 ]
+        %tmp.80 = self;
+        symbol [ drawHeartRateAndCalories %tmp.81 55 8 32 ];
+        %tmp.81 = getv function %tmp.80 :drawHeartRateAndCalories;
+        %tmp.82 = lgetv %dc;
+        symbol [ dc %tmp.82 55 33 35 ];
+        %tmp.83 = lgetv %app.5;
+        symbol [ app %tmp.83 55 37 40 ];
+        invoke %tmp.80 %tmp.81(%tmp.82, %tmp.83);
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 56 8 ]
+        %tmp.84 = self;
+        symbol [ drawDivider %tmp.85 56 8 19 ];
+        %tmp.85 = getv function %tmp.84 :drawDivider;
+        %tmp.86 = lgetv %dc;
+        symbol [ dc %tmp.86 56 20 22 ];
+        %tmp.87 = 238;
+        invoke %tmp.84 %tmp.85(%tmp.86, %tmp.87);
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 57 8 ]
+        %tmp.88 = self;
+        symbol [ drawVitality %tmp.89 57 8 20 ];
+        %tmp.89 = getv function %tmp.88 :drawVitality;
+        %tmp.90 = lgetv %dc;
+        symbol [ dc %tmp.90 57 21 23 ];
+        %tmp.91 = lgetv %app.5;
+        symbol [ app %tmp.91 57 25 28 ];
+        %tmp.92 = lgetv %centerX.3;
+        symbol [ centerX %tmp.92 57 30 37 ];
+        invoke %tmp.88 %tmp.89(%tmp.90, %tmp.91, %tmp.92);
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_33_40_58_4_stop:
+    }
+    [ @file = "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc"; @line = 60; @symbol_functiondef = [drawProgressRing,60,13,29]; @symbol_param<0> = [dc,60,30,32]; @symbol_param<0>_type<0> = [Dc,60,36,38]; @symbol_param<1> = [app,60,40,43]; @symbol_param<2> = [centerX,60,45,52]; @symbol_param<3> = [centerY,60,54,61]; ]
+    function drawProgressRing(dc as Dc, app, centerX, centerY) as Void {
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_60_71_91_4_start:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 61 8 ]
+        [ "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_60_71_91_4_start" "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_60_71_91_4_stop" ]
+        %tickCount.1 = local;
+        symbol [ tickCount %tickCount.1 61 12 21 ];
+        %tmp.1 = 45;
+        lputv %tickCount.1 %tmp.1;
+        symbol [ tickCount %tickCount.1 61 12 21 ];
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 62 8 ]
+        [ "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_60_71_91_4_start" "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_60_71_91_4_stop" ]
+        %vitalityMs.2 = local;
+        symbol [ vitalityMs %vitalityMs.2 62 12 22 ];
+        %tmp.2 = lgetv %app;
+        symbol [ app %tmp.2 62 25 28 ];
+        symbol [ getVitalityMs %tmp.3 62 29 42 ];
+        %tmp.3 = getv function %tmp.2 :getVitalityMs;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        lputv %vitalityMs.2 %tmp.4;
+        symbol [ vitalityMs %vitalityMs.2 62 12 22 ];
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 63 8 ]
+        [ "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_60_71_91_4_start" "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_60_71_91_4_stop" ]
+        %activeTicks.3 = local;
+        symbol [ activeTicks %activeTicks.3 63 12 23 ];
+        %tmp.5 = lgetv %vitalityMs.2;
+        symbol [ vitalityMs %tmp.5 63 28 38 ];
+        %tmp.6 = lgetv %tickCount.1;
+        symbol [ tickCount %tmp.6 63 41 50 ];
+        %tmp.7 = mul %tmp.5 %tmp.6;
+        %tmp.8 = lgetv %app;
+        symbol [ app %tmp.8 63 54 57 ];
+        symbol [ VITALITY_GOAL_MS %tmp.9 63 58 74 ];
+        %tmp.9 = getv %tmp.8 :VITALITY_GOAL_MS;
+        %tmp.10 = div %tmp.7 %tmp.9;
+        symbol [ toNumber %tmp.11 63 76 84 ];
+        %tmp.11 = getv function %tmp.10 :toNumber;
+        %tmp.12 = invoke %tmp.10 %tmp.11();
+        lputv %activeTicks.3 %tmp.12;
+        symbol [ activeTicks %activeTicks.3 63 12 23 ];
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 64 8 ]
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_64_8_66_8_if_stmt:
+        %tmp.13 = lgetv %activeTicks.3;
+        symbol [ activeTicks %tmp.13 64 12 23 ];
+        %tmp.14 = lgetv %tickCount.1;
+        symbol [ tickCount %tmp.14 64 26 35 ];
+        %tmp.15 = gt %tmp.13 %tmp.14;
+        bf %tmp.15 @C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_64_8_66_8_if_end;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_64_8_66_8_if_true:
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_64_37_66_8_start:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 65 12 ]
+        %tmp.16 = lgetv %tickCount.1;
+        symbol [ tickCount %tmp.16 65 26 35 ];
+        lputv %activeTicks.3 %tmp.16;
+        symbol [ activeTicks %activeTicks.3 65 12 23 ];
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_64_37_66_8_stop:
+        goto @C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_64_8_66_8_if_end;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_64_8_66_8_if_end:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 68 8 ]
+        [ "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_60_71_91_4_start" "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_60_71_91_4_stop" ]
+        %outerRadius.4 = local;
+        symbol [ outerRadius %outerRadius.4 68 12 23 ];
+        %tmp.17 = 178;
+        lputv %outerRadius.4 %tmp.17;
+        symbol [ outerRadius %outerRadius.4 68 12 23 ];
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 69 8 ]
+        [ "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_60_71_91_4_start" "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_60_71_91_4_stop" ]
+        %innerRadius.5 = local;
+        symbol [ innerRadius %innerRadius.5 69 12 23 ];
+        %tmp.18 = 166;
+        lputv %innerRadius.5 %tmp.18;
+        symbol [ innerRadius %innerRadius.5 69 12 23 ];
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 71 8 ]
+        for @C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_71_8_90_8_for_test @C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_71_8_90_8_for_incr @C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_71_8_90_8_for_end;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_71_8_90_8_for_init:
+        [ "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_71_8_90_8_for_begin" "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_71_8_90_8_for_end" ]
+        %i.6 = local;
+        symbol [ i %i.6 71 17 18 ];
+        %tmp.19 = 0;
+        lputv %i.6 %tmp.19;
+        symbol [ i %i.6 71 17 18 ];
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_71_8_90_8_for_test:
+        %tmp.20 = lgetv %i.6;
+        symbol [ i %tmp.20 71 24 25 ];
+        %tmp.21 = lgetv %tickCount.1;
+        symbol [ tickCount %tmp.21 71 28 37 ];
+        %tmp.22 = lt %tmp.20 %tmp.21;
+        bf %tmp.22 @C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_71_8_90_8_for_end;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_71_8_90_8_for_begin:
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_71_47_90_8_start:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 72 12 ]
+        [ "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_71_47_90_8_start" "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_71_47_90_8_stop" ]
+        %angle.7 = local;
+        symbol [ angle %angle.7 72 16 21 ];
+        symbol [ Math %tmp.23 72 26 30 ];
+        %tmp.23 = getm $.Toybox.Math;
+        symbol [ PI %tmp.24 72 31 33 ];
+        %tmp.24 = getv %tmp.23 :PI;
+        %tmp.25 = sub 0 %tmp.24;
+        %tmp.26 = 2.0;
+        %tmp.27 = div %tmp.25 %tmp.26;
+        %tmp.28 = 2.0;
+        symbol [ Math %tmp.29 72 50 54 ];
+        %tmp.29 = getm $.Toybox.Math;
+        symbol [ PI %tmp.30 72 55 57 ];
+        %tmp.30 = getv %tmp.29 :PI;
+        %tmp.31 = mul %tmp.28 %tmp.30;
+        %tmp.32 = lgetv %i.6;
+        symbol [ i %tmp.32 72 60 61 ];
+        symbol [ toFloat %tmp.33 72 62 69 ];
+        %tmp.33 = getv function %tmp.32 :toFloat;
+        %tmp.34 = invoke %tmp.32 %tmp.33();
+        %tmp.35 = mul %tmp.31 %tmp.34;
+        %tmp.36 = lgetv %tickCount.1;
+        symbol [ tickCount %tmp.36 72 74 83 ];
+        symbol [ toFloat %tmp.37 72 84 91 ];
+        %tmp.37 = getv function %tmp.36 :toFloat;
+        %tmp.38 = invoke %tmp.36 %tmp.37();
+        %tmp.39 = div %tmp.35 %tmp.38;
+        %tmp.40 = add %tmp.27 %tmp.39;
+        lputv %angle.7 %tmp.40;
+        symbol [ angle %angle.7 72 16 21 ];
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 73 12 ]
+        [ "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_71_47_90_8_start" "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_71_47_90_8_stop" ]
+        %cosA.8 = local;
+        symbol [ cosA %cosA.8 73 16 20 ];
+        symbol [ Math %tmp.41 73 23 27 ];
+        %tmp.41 = getm $.Toybox.Math;
+        symbol [ cos %tmp.42 73 28 31 ];
+        %tmp.42 = getv function %tmp.41 :cos;
+        %tmp.43 = lgetv %angle.7;
+        symbol [ angle %tmp.43 73 32 37 ];
+        %tmp.44 = invoke %tmp.41 %tmp.42(%tmp.43);
+        lputv %cosA.8 %tmp.44;
+        symbol [ cosA %cosA.8 73 16 20 ];
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 74 12 ]
+        [ "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_71_47_90_8_start" "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_71_47_90_8_stop" ]
+        %sinA.9 = local;
+        symbol [ sinA %sinA.9 74 16 20 ];
+        symbol [ Math %tmp.45 74 23 27 ];
+        %tmp.45 = getm $.Toybox.Math;
+        symbol [ sin %tmp.46 74 28 31 ];
+        %tmp.46 = getv function %tmp.45 :sin;
+        %tmp.47 = lgetv %angle.7;
+        symbol [ angle %tmp.47 74 32 37 ];
+        %tmp.48 = invoke %tmp.45 %tmp.46(%tmp.47);
+        lputv %sinA.9 %tmp.48;
+        symbol [ sinA %sinA.9 74 16 20 ];
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 76 12 ]
+        [ "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_71_47_90_8_start" "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_71_47_90_8_stop" ]
+        %x1.10 = local;
+        symbol [ x1 %x1.10 76 16 18 ];
+        %tmp.49 = lgetv %centerX;
+        symbol [ centerX %tmp.49 76 21 28 ];
+        %tmp.50 = lgetv %innerRadius.5;
+        symbol [ innerRadius %tmp.50 76 32 43 ];
+        %tmp.51 = lgetv %cosA.8;
+        symbol [ cosA %tmp.51 76 46 50 ];
+        %tmp.52 = mul %tmp.50 %tmp.51;
+        symbol [ toNumber %tmp.53 76 52 60 ];
+        %tmp.53 = getv function %tmp.52 :toNumber;
+        %tmp.54 = invoke %tmp.52 %tmp.53();
+        %tmp.55 = add %tmp.49 %tmp.54;
+        lputv %x1.10 %tmp.55;
+        symbol [ x1 %x1.10 76 16 18 ];
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 77 12 ]
+        [ "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_71_47_90_8_start" "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_71_47_90_8_stop" ]
+        %y1.11 = local;
+        symbol [ y1 %y1.11 77 16 18 ];
+        %tmp.56 = lgetv %centerY;
+        symbol [ centerY %tmp.56 77 21 28 ];
+        %tmp.57 = lgetv %innerRadius.5;
+        symbol [ innerRadius %tmp.57 77 32 43 ];
+        %tmp.58 = lgetv %sinA.9;
+        symbol [ sinA %tmp.58 77 46 50 ];
+        %tmp.59 = mul %tmp.57 %tmp.58;
+        symbol [ toNumber %tmp.60 77 52 60 ];
+        %tmp.60 = getv function %tmp.59 :toNumber;
+        %tmp.61 = invoke %tmp.59 %tmp.60();
+        %tmp.62 = add %tmp.56 %tmp.61;
+        lputv %y1.11 %tmp.62;
+        symbol [ y1 %y1.11 77 16 18 ];
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 78 12 ]
+        [ "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_71_47_90_8_start" "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_71_47_90_8_stop" ]
+        %x2.12 = local;
+        symbol [ x2 %x2.12 78 16 18 ];
+        %tmp.63 = lgetv %centerX;
+        symbol [ centerX %tmp.63 78 21 28 ];
+        %tmp.64 = lgetv %outerRadius.4;
+        symbol [ outerRadius %tmp.64 78 32 43 ];
+        %tmp.65 = lgetv %cosA.8;
+        symbol [ cosA %tmp.65 78 46 50 ];
+        %tmp.66 = mul %tmp.64 %tmp.65;
+        symbol [ toNumber %tmp.67 78 52 60 ];
+        %tmp.67 = getv function %tmp.66 :toNumber;
+        %tmp.68 = invoke %tmp.66 %tmp.67();
+        %tmp.69 = add %tmp.63 %tmp.68;
+        lputv %x2.12 %tmp.69;
+        symbol [ x2 %x2.12 78 16 18 ];
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 79 12 ]
+        [ "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_71_47_90_8_start" "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_71_47_90_8_stop" ]
+        %y2.13 = local;
+        symbol [ y2 %y2.13 79 16 18 ];
+        %tmp.70 = lgetv %centerY;
+        symbol [ centerY %tmp.70 79 21 28 ];
+        %tmp.71 = lgetv %outerRadius.4;
+        symbol [ outerRadius %tmp.71 79 32 43 ];
+        %tmp.72 = lgetv %sinA.9;
+        symbol [ sinA %tmp.72 79 46 50 ];
+        %tmp.73 = mul %tmp.71 %tmp.72;
+        symbol [ toNumber %tmp.74 79 52 60 ];
+        %tmp.74 = getv function %tmp.73 :toNumber;
+        %tmp.75 = invoke %tmp.73 %tmp.74();
+        %tmp.76 = add %tmp.70 %tmp.75;
+        lputv %y2.13 %tmp.76;
+        symbol [ y2 %y2.13 79 16 18 ];
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 81 12 ]
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_81_12_87_12_if_stmt:
+        %tmp.77 = lgetv %app;
+        symbol [ app %tmp.77 81 16 19 ];
+        symbol [ vitalityAchieved %tmp.78 81 20 36 ];
+        %tmp.78 = getv %tmp.77 :vitalityAchieved;
+        bf %tmp.78 @C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_81_12_87_12_if_false;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_81_12_87_12_if_true:
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_81_38_83_12_start:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 82 16 ]
+        %tmp.79 = lgetv %dc;
+        symbol [ dc %tmp.79 82 16 18 ];
+        symbol [ setColor %tmp.80 82 19 27 ];
+        %tmp.80 = getv function %tmp.79 :setColor;
+        symbol [ Graphics %tmp.81 82 28 36 ];
+        %tmp.81 = getm $.Toybox.Graphics;
+        symbol [ COLOR_GREEN %tmp.82 82 37 48 ];
+        %tmp.82 = getv %tmp.81 :COLOR_GREEN;
+        symbol [ Graphics %tmp.83 82 50 58 ];
+        %tmp.83 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.84 82 59 76 ];
+        %tmp.84 = getv %tmp.83 :COLOR_TRANSPARENT;
+        invoke %tmp.79 %tmp.80(%tmp.82, %tmp.84);
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_81_38_83_12_stop:
+        goto @C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_81_12_87_12_if_end;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_81_12_87_12_if_false:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 83 19 ]
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_83_19_87_12_if_stmt:
+        %tmp.85 = lgetv %i.6;
+        symbol [ i %tmp.85 83 23 24 ];
+        %tmp.86 = lgetv %activeTicks.3;
+        symbol [ activeTicks %tmp.86 83 27 38 ];
+        %tmp.87 = lt %tmp.85 %tmp.86;
+        bf %tmp.87 @C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_83_19_87_12_if_else_false;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_83_19_87_12_if_true:
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_83_40_85_12_start:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 84 16 ]
+        %tmp.88 = lgetv %dc;
+        symbol [ dc %tmp.88 84 16 18 ];
+        symbol [ setColor %tmp.89 84 19 27 ];
+        %tmp.89 = getv function %tmp.88 :setColor;
+        symbol [ Graphics %tmp.90 84 28 36 ];
+        %tmp.90 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLUE %tmp.91 84 37 47 ];
+        %tmp.91 = getv %tmp.90 :COLOR_BLUE;
+        symbol [ Graphics %tmp.92 84 49 57 ];
+        %tmp.92 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.93 84 58 75 ];
+        %tmp.93 = getv %tmp.92 :COLOR_TRANSPARENT;
+        invoke %tmp.88 %tmp.89(%tmp.91, %tmp.93);
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_83_40_85_12_stop:
+        goto @C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_83_19_87_12_if_end;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_83_19_87_12_if_else_false:
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_85_19_87_12_start:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 86 16 ]
+        %tmp.94 = lgetv %dc;
+        symbol [ dc %tmp.94 86 16 18 ];
+        symbol [ setColor %tmp.95 86 19 27 ];
+        %tmp.95 = getv function %tmp.94 :setColor;
+        symbol [ Graphics %tmp.96 86 28 36 ];
+        %tmp.96 = getm $.Toybox.Graphics;
+        symbol [ COLOR_DK_GRAY %tmp.97 86 37 50 ];
+        %tmp.97 = getv %tmp.96 :COLOR_DK_GRAY;
+        symbol [ Graphics %tmp.98 86 52 60 ];
+        %tmp.98 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.99 86 61 78 ];
+        %tmp.99 = getv %tmp.98 :COLOR_TRANSPARENT;
+        invoke %tmp.94 %tmp.95(%tmp.97, %tmp.99);
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_85_19_87_12_stop:
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_83_19_87_12_if_end:
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_81_12_87_12_if_end:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 89 12 ]
+        %tmp.100 = lgetv %dc;
+        symbol [ dc %tmp.100 89 12 14 ];
+        symbol [ drawLine %tmp.101 89 15 23 ];
+        %tmp.101 = getv function %tmp.100 :drawLine;
+        %tmp.102 = lgetv %x1.10;
+        symbol [ x1 %tmp.102 89 24 26 ];
+        %tmp.103 = lgetv %y1.11;
+        symbol [ y1 %tmp.103 89 28 30 ];
+        %tmp.104 = lgetv %x2.12;
+        symbol [ x2 %tmp.104 89 32 34 ];
+        %tmp.105 = lgetv %y2.13;
+        symbol [ y2 %tmp.105 89 36 38 ];
+        invoke %tmp.100 %tmp.101(%tmp.102, %tmp.103, %tmp.104, %tmp.105);
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_71_47_90_8_stop:
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_71_8_90_8_for_incr:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 71 ]
+        %tmp.106 = lgetv %i.6;
+        symbol [ i %tmp.106 71 39 40 ];
+        %tmp.107 = 1;
+        %tmp.108 = add %tmp.106 %tmp.107;
+        lputv %i.6 %tmp.108;
+        symbol [ i %i.6 71 39 40 ];
+        goto @C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_71_8_90_8_for_test;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_71_8_90_8_for_end:
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_60_71_91_4_stop:
+    }
+    [ @file = "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc"; @line = 93; @symbol_functiondef = [drawDivider,93,13,24]; @symbol_param<0> = [dc,93,25,27]; @symbol_param<0>_type<0> = [Dc,93,31,33]; @symbol_param<1> = [y,93,35,36]; ]
+    function drawDivider(dc as Dc, y) as Void {
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_93_46_96_4_start:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 94 8 ]
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 94 8 10 ];
+        symbol [ setColor %tmp.2 94 11 19 ];
+        %tmp.2 = getv function %tmp.1 :setColor;
+        symbol [ Graphics %tmp.3 94 20 28 ];
+        %tmp.3 = getm $.Toybox.Graphics;
+        symbol [ COLOR_DK_GRAY %tmp.4 94 29 42 ];
+        %tmp.4 = getv %tmp.3 :COLOR_DK_GRAY;
+        symbol [ Graphics %tmp.5 94 44 52 ];
+        %tmp.5 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.6 94 53 70 ];
+        %tmp.6 = getv %tmp.5 :COLOR_TRANSPARENT;
+        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 95 8 ]
+        %tmp.7 = lgetv %dc;
+        symbol [ dc %tmp.7 95 8 10 ];
+        symbol [ drawLine %tmp.8 95 11 19 ];
+        %tmp.8 = getv function %tmp.7 :drawLine;
+        %tmp.9 = 88;
+        %tmp.10 = lgetv %y;
+        symbol [ y %tmp.10 95 24 25 ];
+        %tmp.11 = 302;
+        %tmp.12 = lgetv %y;
+        symbol [ y %tmp.12 95 32 33 ];
+        invoke %tmp.7 %tmp.8(%tmp.9, %tmp.10, %tmp.11, %tmp.12);
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_93_46_96_4_stop:
+    }
+    [ @file = "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc"; @line = 98; @symbol_functiondef = [drawHeartRateAndCalories,98,13,37]; @symbol_param<0> = [dc,98,38,40]; @symbol_param<0>_type<0> = [Dc,98,44,46]; @symbol_param<1> = [app,98,48,51]; ]
+    function drawHeartRateAndCalories(dc as Dc, app) as Void {
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_98_61_116_4_start:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 99 8 ]
+        [ "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_98_61_116_4_start" "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_98_61_116_4_stop" ]
+        %hrText.1 = local;
+        symbol [ hrText %hrText.1 99 12 18 ];
+        %tmp.1 = "--";
+        lputv %hrText.1 %tmp.1;
+        symbol [ hrText %hrText.1 99 12 18 ];
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 100 8 ]
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_100_8_102_8_if_stmt:
+        %tmp.2 = lgetv %app;
+        symbol [ app %tmp.2 100 12 15 ];
+        symbol [ currentHeartRate %tmp.3 100 16 32 ];
+        %tmp.3 = getv %tmp.2 :currentHeartRate;
+        %tmp.4 = null;
+        %tmp.5 = ne %tmp.3 %tmp.4;
+        bf %tmp.5 @C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_100_8_102_8_if_end;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_100_8_102_8_if_true:
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_100_42_102_8_start:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 101 12 ]
+        %tmp.6 = lgetv %app;
+        symbol [ app %tmp.6 101 21 24 ];
+        symbol [ currentHeartRate %tmp.7 101 25 41 ];
+        %tmp.7 = getv %tmp.6 :currentHeartRate;
+        symbol [ format %tmp.8 101 42 48 ];
+        %tmp.8 = getv function %tmp.7 :format;
+        %tmp.9 = "%d";
+        %tmp.10 = invoke %tmp.7 %tmp.8(%tmp.9);
+        lputv %hrText.1 %tmp.10;
+        symbol [ hrText %hrText.1 101 12 18 ];
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_100_42_102_8_stop:
+        goto @C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_100_8_102_8_if_end;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_100_8_102_8_if_end:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 104 8 ]
+        %tmp.11 = lgetv %dc;
+        symbol [ dc %tmp.11 104 8 10 ];
+        symbol [ setColor %tmp.12 104 11 19 ];
+        %tmp.12 = getv function %tmp.11 :setColor;
+        symbol [ Graphics %tmp.13 104 20 28 ];
+        %tmp.13 = getm $.Toybox.Graphics;
+        symbol [ COLOR_LT_GRAY %tmp.14 104 29 42 ];
+        %tmp.14 = getv %tmp.13 :COLOR_LT_GRAY;
+        symbol [ Graphics %tmp.15 104 44 52 ];
+        %tmp.15 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.16 104 53 70 ];
+        %tmp.16 = getv %tmp.15 :COLOR_TRANSPARENT;
+        invoke %tmp.11 %tmp.12(%tmp.14, %tmp.16);
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 105 8 ]
+        %tmp.17 = lgetv %dc;
+        symbol [ dc %tmp.17 105 8 10 ];
+        symbol [ drawText %tmp.18 105 11 19 ];
+        %tmp.18 = getv function %tmp.17 :drawText;
+        %tmp.19 = 126;
+        %tmp.20 = 169;
+        symbol [ Graphics %tmp.21 105 30 38 ];
+        %tmp.21 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.22 105 39 49 ];
+        %tmp.22 = getv %tmp.21 :FONT_XTINY;
+        %tmp.23 = "HR";
+        symbol [ Graphics %tmp.24 105 57 65 ];
+        %tmp.24 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.25 105 66 85 ];
+        %tmp.25 = getv %tmp.24 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.17 %tmp.18(%tmp.19, %tmp.20, %tmp.22, %tmp.23, %tmp.25);
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 106 8 ]
+        %tmp.26 = lgetv %dc;
+        symbol [ dc %tmp.26 106 8 10 ];
+        symbol [ drawText %tmp.27 106 11 19 ];
+        %tmp.27 = getv function %tmp.26 :drawText;
+        %tmp.28 = 264;
+        %tmp.29 = 169;
+        symbol [ Graphics %tmp.30 106 30 38 ];
+        %tmp.30 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.31 106 39 49 ];
+        %tmp.31 = getv %tmp.30 :FONT_XTINY;
+        %tmp.32 = "CALORIES";
+        symbol [ Graphics %tmp.33 106 63 71 ];
+        %tmp.33 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.34 106 72 91 ];
+        %tmp.34 = getv %tmp.33 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.26 %tmp.27(%tmp.28, %tmp.29, %tmp.31, %tmp.32, %tmp.34);
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 108 8 ]
+        %tmp.35 = lgetv %dc;
+        symbol [ dc %tmp.35 108 8 10 ];
+        symbol [ setColor %tmp.36 108 11 19 ];
+        %tmp.36 = getv function %tmp.35 :setColor;
+        %tmp.37 = self;
+        symbol [ getHeartRateZoneColor %tmp.38 108 20 41 ];
+        %tmp.38 = getv function %tmp.37 :getHeartRateZoneColor;
+        %tmp.39 = lgetv %app;
+        symbol [ app %tmp.39 108 42 45 ];
+        symbol [ getHeartRateZone %tmp.40 108 46 62 ];
+        %tmp.40 = getv function %tmp.39 :getHeartRateZone;
+        %tmp.41 = invoke %tmp.39 %tmp.40();
+        %tmp.42 = invoke %tmp.37 %tmp.38(%tmp.41);
+        symbol [ Graphics %tmp.43 108 67 75 ];
+        %tmp.43 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.44 108 76 93 ];
+        %tmp.44 = getv %tmp.43 :COLOR_TRANSPARENT;
+        invoke %tmp.35 %tmp.36(%tmp.42, %tmp.44);
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 109 8 ]
+        %tmp.45 = lgetv %dc;
+        symbol [ dc %tmp.45 109 8 10 ];
+        symbol [ drawText %tmp.46 109 11 19 ];
+        %tmp.46 = getv function %tmp.45 :drawText;
+        %tmp.47 = 126;
+        %tmp.48 = 193;
+        symbol [ Graphics %tmp.49 109 30 38 ];
+        %tmp.49 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.50 109 39 49 ];
+        %tmp.50 = getv %tmp.49 :FONT_SMALL;
+        %tmp.51 = lgetv %hrText.1;
+        symbol [ hrText %tmp.51 109 51 57 ];
+        symbol [ Graphics %tmp.52 109 59 67 ];
+        %tmp.52 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.53 109 68 87 ];
+        %tmp.53 = getv %tmp.52 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.45 %tmp.46(%tmp.47, %tmp.48, %tmp.50, %tmp.51, %tmp.53);
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 111 8 ]
+        %tmp.54 = lgetv %dc;
+        symbol [ dc %tmp.54 111 8 10 ];
+        symbol [ setColor %tmp.55 111 11 19 ];
+        %tmp.55 = getv function %tmp.54 :setColor;
+        symbol [ Graphics %tmp.56 111 20 28 ];
+        %tmp.56 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.57 111 29 40 ];
+        %tmp.57 = getv %tmp.56 :COLOR_WHITE;
+        symbol [ Graphics %tmp.58 111 42 50 ];
+        %tmp.58 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.59 111 51 68 ];
+        %tmp.59 = getv %tmp.58 :COLOR_TRANSPARENT;
+        invoke %tmp.54 %tmp.55(%tmp.57, %tmp.59);
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 112 8 ]
+        %tmp.60 = lgetv %dc;
+        symbol [ dc %tmp.60 112 8 10 ];
+        symbol [ drawText %tmp.61 112 11 19 ];
+        %tmp.61 = getv function %tmp.60 :drawText;
+        %tmp.62 = 264;
+        %tmp.63 = 193;
+        symbol [ Graphics %tmp.64 112 30 38 ];
+        %tmp.64 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.65 112 39 49 ];
+        %tmp.65 = getv %tmp.64 :FONT_SMALL;
+        %tmp.66 = lgetv %app;
+        symbol [ app %tmp.66 112 51 54 ];
+        symbol [ getCalories %tmp.67 112 55 66 ];
+        %tmp.67 = getv function %tmp.66 :getCalories;
+        %tmp.68 = invoke %tmp.66 %tmp.67();
+        symbol [ format %tmp.69 112 69 75 ];
+        %tmp.69 = getv function %tmp.68 :format;
+        %tmp.70 = "%d";
+        %tmp.71 = invoke %tmp.68 %tmp.69(%tmp.70);
+        symbol [ Graphics %tmp.72 112 83 91 ];
+        %tmp.72 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.73 112 92 111 ];
+        %tmp.73 = getv %tmp.72 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.60 %tmp.61(%tmp.62, %tmp.63, %tmp.65, %tmp.71, %tmp.73);
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 114 8 ]
+        %tmp.74 = lgetv %dc;
+        symbol [ dc %tmp.74 114 8 10 ];
+        symbol [ setColor %tmp.75 114 11 19 ];
+        %tmp.75 = getv function %tmp.74 :setColor;
+        symbol [ Graphics %tmp.76 114 20 28 ];
+        %tmp.76 = getm $.Toybox.Graphics;
+        symbol [ COLOR_DK_GRAY %tmp.77 114 29 42 ];
+        %tmp.77 = getv %tmp.76 :COLOR_DK_GRAY;
+        symbol [ Graphics %tmp.78 114 44 52 ];
+        %tmp.78 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.79 114 53 70 ];
+        %tmp.79 = getv %tmp.78 :COLOR_TRANSPARENT;
+        invoke %tmp.74 %tmp.75(%tmp.77, %tmp.79);
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 115 8 ]
+        %tmp.80 = lgetv %dc;
+        symbol [ dc %tmp.80 115 8 10 ];
+        symbol [ drawLine %tmp.81 115 11 19 ];
+        %tmp.81 = getv function %tmp.80 :drawLine;
+        %tmp.82 = 195;
+        %tmp.83 = 167;
+        %tmp.84 = 195;
+        %tmp.85 = 225;
+        invoke %tmp.80 %tmp.81(%tmp.82, %tmp.83, %tmp.84, %tmp.85);
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_98_61_116_4_stop:
+    }
+    [ @file = "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc"; @line = 118; @symbol_functiondef = [getHeartRateZoneColor,118,13,34]; @symbol_param<0> = [zone,118,35,39]; @symbol_param<0>_type<0> = [Number,118,43,49]; ]
+    function getHeartRateZoneColor(zone as Number) {
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_118_51_130_4_start:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 120 8 ]
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_120_8_128_8_if_stmt:
+        %tmp.1 = lgetv %zone;
+        symbol [ zone %tmp.1 120 12 16 ];
+        %tmp.2 = 2;
+        %tmp.3 = eq %tmp.1 %tmp.2;
+        bf %tmp.3 @C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_120_8_128_8_if_false;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_120_8_128_8_if_true:
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_120_23_122_8_start:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 121 12 ]
+        symbol [ Graphics %tmp.4 121 19 27 ];
+        %tmp.4 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLUE %tmp.5 121 28 38 ];
+        %tmp.5 = getv %tmp.4 :COLOR_BLUE;
+        ret %tmp.5;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_120_23_122_8_stop:
+        goto @C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_120_8_128_8_if_end;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_120_8_128_8_if_false:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 122 15 ]
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_122_15_128_8_if_stmt:
+        %tmp.6 = lgetv %zone;
+        symbol [ zone %tmp.6 122 19 23 ];
+        %tmp.7 = 3;
+        %tmp.8 = eq %tmp.6 %tmp.7;
+        bf %tmp.8 @C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_122_15_128_8_if_false;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_122_15_128_8_if_true:
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_122_30_124_8_start:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 123 12 ]
+        symbol [ Graphics %tmp.9 123 19 27 ];
+        %tmp.9 = getm $.Toybox.Graphics;
+        symbol [ COLOR_GREEN %tmp.10 123 28 39 ];
+        %tmp.10 = getv %tmp.9 :COLOR_GREEN;
+        ret %tmp.10;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_122_30_124_8_stop:
+        goto @C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_122_15_128_8_if_end;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_122_15_128_8_if_false:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 124 15 ]
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_124_15_128_8_if_stmt:
+        %tmp.11 = lgetv %zone;
+        symbol [ zone %tmp.11 124 19 23 ];
+        %tmp.12 = 4;
+        %tmp.13 = eq %tmp.11 %tmp.12;
+        bf %tmp.13 @C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_124_15_128_8_if_false;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_124_15_128_8_if_true:
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_124_30_126_8_start:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 125 12 ]
+        symbol [ Graphics %tmp.14 125 19 27 ];
+        %tmp.14 = getm $.Toybox.Graphics;
+        symbol [ COLOR_ORANGE %tmp.15 125 28 40 ];
+        %tmp.15 = getv %tmp.14 :COLOR_ORANGE;
+        ret %tmp.15;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_124_30_126_8_stop:
+        goto @C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_124_15_128_8_if_end;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_124_15_128_8_if_false:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 126 15 ]
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_126_15_128_8_if_stmt:
+        %tmp.16 = lgetv %zone;
+        symbol [ zone %tmp.16 126 19 23 ];
+        %tmp.17 = 5;
+        %tmp.18 = eq %tmp.16 %tmp.17;
+        bf %tmp.18 @C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_126_15_128_8_if_end;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_126_15_128_8_if_true:
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_126_30_128_8_start:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 127 12 ]
+        symbol [ Graphics %tmp.19 127 19 27 ];
+        %tmp.19 = getm $.Toybox.Graphics;
+        symbol [ COLOR_RED %tmp.20 127 28 37 ];
+        %tmp.20 = getv %tmp.19 :COLOR_RED;
+        ret %tmp.20;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_126_30_128_8_stop:
+        goto @C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_126_15_128_8_if_end;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_126_15_128_8_if_end:
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_124_15_128_8_if_end:
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_122_15_128_8_if_end:
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_120_8_128_8_if_end:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 129 8 ]
+        symbol [ Graphics %tmp.21 129 15 23 ];
+        %tmp.21 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.22 129 24 35 ];
+        %tmp.22 = getv %tmp.21 :COLOR_WHITE;
+        ret %tmp.22;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_118_51_130_4_stop:
+    }
+    [ @file = "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc"; @line = 132; @symbol_functiondef = [drawVitality,132,13,25]; @symbol_param<0> = [dc,132,26,28]; @symbol_param<0>_type<0> = [Dc,132,32,34]; @symbol_param<1> = [app,132,36,39]; @symbol_param<2> = [centerX,132,41,48]; ]
+    function drawVitality(dc as Dc, app, centerX) as Void {
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_132_58_148_4_start:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 133 8 ]
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_133_8_137_8_if_stmt:
+        %tmp.1 = lgetv %app;
+        symbol [ app %tmp.1 133 12 15 ];
+        symbol [ vitalityThreshold %tmp.2 133 16 33 ];
+        %tmp.2 = getv %tmp.1 :vitalityThreshold;
+        %tmp.3 = null;
+        %tmp.4 = eq %tmp.2 %tmp.3;
+        bf %tmp.4 @C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_133_8_137_8_if_end;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_133_8_137_8_if_true:
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_133_43_137_8_start:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 134 12 ]
+        %tmp.5 = lgetv %dc;
+        symbol [ dc %tmp.5 134 12 14 ];
+        symbol [ setColor %tmp.6 134 15 23 ];
+        %tmp.6 = getv function %tmp.5 :setColor;
+        symbol [ Graphics %tmp.7 134 24 32 ];
+        %tmp.7 = getm $.Toybox.Graphics;
+        symbol [ COLOR_LT_GRAY %tmp.8 134 33 46 ];
+        %tmp.8 = getv %tmp.7 :COLOR_LT_GRAY;
+        symbol [ Graphics %tmp.9 134 48 56 ];
+        %tmp.9 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.10 134 57 74 ];
+        %tmp.10 = getv %tmp.9 :COLOR_TRANSPARENT;
+        invoke %tmp.5 %tmp.6(%tmp.8, %tmp.10);
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 135 12 ]
+        %tmp.11 = lgetv %dc;
+        symbol [ dc %tmp.11 135 12 14 ];
+        symbol [ drawText %tmp.12 135 15 23 ];
+        %tmp.12 = getv function %tmp.11 :drawText;
+        %tmp.13 = lgetv %centerX;
+        symbol [ centerX %tmp.13 135 24 31 ];
+        %tmp.14 = 260;
+        symbol [ Graphics %tmp.15 135 38 46 ];
+        %tmp.15 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.16 135 47 57 ];
+        %tmp.16 = getv %tmp.15 :FONT_XTINY;
+        %tmp.17 = "VITALITY TARGET UNAVAILABLE";
+        symbol [ Graphics %tmp.18 135 90 98 ];
+        %tmp.18 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.19 135 99 118 ];
+        %tmp.19 = getv %tmp.18 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.11 %tmp.12(%tmp.13, %tmp.14, %tmp.16, %tmp.17, %tmp.19);
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 136 12 ]
+        ret ?;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_133_43_137_8_stop:
+        goto @C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_133_8_137_8_if_end;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_133_8_137_8_if_end:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 139 8 ]
+        [ "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_132_58_148_4_start" "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_132_58_148_4_stop" ]
+        %vitalityMs.1 = local;
+        symbol [ vitalityMs %vitalityMs.1 139 12 22 ];
+        %tmp.20 = lgetv %app;
+        symbol [ app %tmp.20 139 25 28 ];
+        symbol [ getVitalityMs %tmp.21 139 29 42 ];
+        %tmp.21 = getv function %tmp.20 :getVitalityMs;
+        %tmp.22 = invoke %tmp.20 %tmp.21();
+        lputv %vitalityMs.1 %tmp.22;
+        symbol [ vitalityMs %vitalityMs.1 139 12 22 ];
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 141 8 ]
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_141_8_147_8_if_stmt:
+        %tmp.23 = lgetv %app;
+        symbol [ app %tmp.23 141 12 15 ];
+        symbol [ vitalityAchieved %tmp.24 141 16 32 ];
+        %tmp.24 = getv %tmp.23 :vitalityAchieved;
+        bf %tmp.24 @C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_141_8_147_8_if_else_false;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_141_8_147_8_if_true:
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_141_34_144_8_start:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 142 12 ]
+        %tmp.25 = lgetv %dc;
+        symbol [ dc %tmp.25 142 12 14 ];
+        symbol [ setColor %tmp.26 142 15 23 ];
+        %tmp.26 = getv function %tmp.25 :setColor;
+        symbol [ Graphics %tmp.27 142 24 32 ];
+        %tmp.27 = getm $.Toybox.Graphics;
+        symbol [ COLOR_GREEN %tmp.28 142 33 44 ];
+        %tmp.28 = getv %tmp.27 :COLOR_GREEN;
+        symbol [ Graphics %tmp.29 142 46 54 ];
+        %tmp.29 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.30 142 55 72 ];
+        %tmp.30 = getv %tmp.29 :COLOR_TRANSPARENT;
+        invoke %tmp.25 %tmp.26(%tmp.28, %tmp.30);
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 143 12 ]
+        %tmp.31 = lgetv %dc;
+        symbol [ dc %tmp.31 143 12 14 ];
+        symbol [ drawText %tmp.32 143 15 23 ];
+        %tmp.32 = getv function %tmp.31 :drawText;
+        %tmp.33 = lgetv %centerX;
+        symbol [ centerX %tmp.33 143 24 31 ];
+        %tmp.34 = 260;
+        symbol [ Graphics %tmp.35 143 38 46 ];
+        %tmp.35 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.36 143 47 57 ];
+        %tmp.36 = getv %tmp.35 :FONT_XTINY;
+        %tmp.37 = "15 POINT GOAL MET";
+        symbol [ Graphics %tmp.38 143 80 88 ];
+        %tmp.38 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.39 143 89 108 ];
+        %tmp.39 = getv %tmp.38 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.31 %tmp.32(%tmp.33, %tmp.34, %tmp.36, %tmp.37, %tmp.39);
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_141_34_144_8_stop:
+        goto @C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_141_8_147_8_if_end;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_141_8_147_8_if_else_false:
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_144_15_147_8_start:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 145 12 ]
+        %tmp.40 = lgetv %dc;
+        symbol [ dc %tmp.40 145 12 14 ];
+        symbol [ setColor %tmp.41 145 15 23 ];
+        %tmp.41 = getv function %tmp.40 :setColor;
+        symbol [ Graphics %tmp.42 145 24 32 ];
+        %tmp.42 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.43 145 33 44 ];
+        %tmp.43 = getv %tmp.42 :COLOR_WHITE;
+        symbol [ Graphics %tmp.44 145 46 54 ];
+        %tmp.44 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.45 145 55 72 ];
+        %tmp.45 = getv %tmp.44 :COLOR_TRANSPARENT;
+        invoke %tmp.40 %tmp.41(%tmp.43, %tmp.45);
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 146 12 ]
+        %tmp.46 = lgetv %dc;
+        symbol [ dc %tmp.46 146 12 14 ];
+        symbol [ drawText %tmp.47 146 15 23 ];
+        %tmp.47 = getv function %tmp.46 :drawText;
+        %tmp.48 = lgetv %centerX;
+        symbol [ centerX %tmp.48 146 24 31 ];
+        %tmp.49 = 260;
+        symbol [ Graphics %tmp.50 146 38 46 ];
+        %tmp.50 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.51 146 47 57 ];
+        %tmp.51 = getv %tmp.50 :FONT_SMALL;
+        %tmp.52 = self;
+        symbol [ formatElapsed %tmp.53 146 59 72 ];
+        %tmp.53 = getv function %tmp.52 :formatElapsed;
+        %tmp.54 = lgetv %vitalityMs.1;
+        symbol [ vitalityMs %tmp.54 146 73 83 ];
+        %tmp.55 = invoke %tmp.52 %tmp.53(%tmp.54);
+        %tmp.56 = " / 45:00";
+        %tmp.57 = add %tmp.55 %tmp.56;
+        symbol [ Graphics %tmp.58 146 99 107 ];
+        %tmp.58 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.59 146 108 127 ];
+        %tmp.59 = getv %tmp.58 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.46 %tmp.47(%tmp.48, %tmp.49, %tmp.51, %tmp.57, %tmp.59);
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_144_15_147_8_stop:
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_141_8_147_8_if_end:
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_132_58_148_4_stop:
+    }
+    [ @file = "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc"; @line = 150; @symbol_functiondef = [formatClock,150,13,24]; @symbol_return<0> = [String,150,30,36]; ]
+    function formatClock() as String {
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_150_37_164_4_start:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 151 8 ]
+        [ "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_150_37_164_4_start" "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_150_37_164_4_stop" ]
+        %clock.1 = local;
+        symbol [ clock %clock.1 151 12 17 ];
+        symbol [ System %tmp.1 151 20 26 ];
+        %tmp.1 = getm $.Toybox.System;
+        symbol [ getClockTime %tmp.2 151 27 39 ];
+        %tmp.2 = getv function %tmp.1 :getClockTime;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %clock.1 %tmp.3;
+        symbol [ clock %clock.1 151 12 17 ];
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 152 8 ]
+        [ "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_150_37_164_4_start" "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_150_37_164_4_stop" ]
+        %hour.2 = local;
+        symbol [ hour %hour.2 152 12 16 ];
+        %tmp.4 = lgetv %clock.1;
+        symbol [ clock %tmp.4 152 19 24 ];
+        symbol [ hour %tmp.5 152 25 29 ];
+        %tmp.5 = getv %tmp.4 :hour;
+        lputv %hour.2 %tmp.5;
+        symbol [ hour %hour.2 152 12 16 ];
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 153 8 ]
+        [ "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_150_37_164_4_start" "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_150_37_164_4_stop" ]
+        %suffix.3 = local;
+        symbol [ suffix %suffix.3 153 12 18 ];
+        %tmp.6 = "AM";
+        lputv %suffix.3 %tmp.6;
+        symbol [ suffix %suffix.3 153 12 18 ];
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 155 8 ]
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_155_8_157_8_if_stmt:
+        %tmp.7 = lgetv %hour.2;
+        symbol [ hour %tmp.7 155 12 16 ];
+        %tmp.8 = 12;
+        %tmp.9 = gte %tmp.7 %tmp.8;
+        bf %tmp.9 @C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_155_8_157_8_if_end;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_155_8_157_8_if_true:
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_155_24_157_8_start:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 156 12 ]
+        %tmp.10 = "PM";
+        lputv %suffix.3 %tmp.10;
+        symbol [ suffix %suffix.3 156 12 18 ];
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_155_24_157_8_stop:
+        goto @C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_155_8_157_8_if_end;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_155_8_157_8_if_end:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 158 8 ]
+        %tmp.11 = lgetv %hour.2;
+        symbol [ hour %tmp.11 158 15 19 ];
+        %tmp.12 = 12;
+        %tmp.13 = mod %tmp.11 %tmp.12;
+        lputv %hour.2 %tmp.13;
+        symbol [ hour %hour.2 158 8 12 ];
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 159 8 ]
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_159_8_161_8_if_stmt:
+        %tmp.14 = lgetv %hour.2;
+        symbol [ hour %tmp.14 159 12 16 ];
+        %tmp.15 = 0;
+        %tmp.16 = eq %tmp.14 %tmp.15;
+        bf %tmp.16 @C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_159_8_161_8_if_end;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_159_8_161_8_if_true:
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_159_23_161_8_start:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 160 12 ]
+        %tmp.17 = 12;
+        lputv %hour.2 %tmp.17;
+        symbol [ hour %hour.2 160 12 16 ];
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_159_23_161_8_stop:
+        goto @C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_159_8_161_8_if_end;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_159_8_161_8_if_end:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 163 8 ]
+        %tmp.18 = lgetv %hour.2;
+        symbol [ hour %tmp.18 163 15 19 ];
+        symbol [ format %tmp.19 163 20 26 ];
+        %tmp.19 = getv function %tmp.18 :format;
+        %tmp.20 = "%d";
+        %tmp.21 = invoke %tmp.18 %tmp.19(%tmp.20);
+        %tmp.22 = ":";
+        %tmp.23 = add %tmp.21 %tmp.22;
+        %tmp.24 = lgetv %clock.1;
+        symbol [ clock %tmp.24 163 41 46 ];
+        symbol [ min %tmp.25 163 47 50 ];
+        %tmp.25 = getv %tmp.24 :min;
+        symbol [ format %tmp.26 163 51 57 ];
+        %tmp.26 = getv function %tmp.25 :format;
+        %tmp.27 = "%02d";
+        %tmp.28 = invoke %tmp.25 %tmp.26(%tmp.27);
+        %tmp.29 = add %tmp.23 %tmp.28;
+        %tmp.30 = " ";
+        %tmp.31 = add %tmp.29 %tmp.30;
+        %tmp.32 = lgetv %suffix.3;
+        symbol [ suffix %tmp.32 163 74 80 ];
+        %tmp.33 = add %tmp.31 %tmp.32;
+        ret %tmp.33;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_150_37_164_4_stop:
+    }
+    [ @file = "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc"; @line = 166; @symbol_functiondef = [formatElapsed,166,13,26]; @symbol_param<0> = [ms,166,27,29]; @symbol_param<0>_type<0> = [Number,166,33,39]; @symbol_return<0> = [String,166,44,50]; ]
+    function formatElapsed(ms as Number) as String {
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_166_51_176_4_start:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 167 8 ]
+        [ "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_166_51_176_4_start" "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_166_51_176_4_stop" ]
+        %totalSeconds.1 = local;
+        symbol [ totalSeconds %totalSeconds.1 167 12 24 ];
+        %tmp.1 = lgetv %ms;
+        symbol [ ms %tmp.1 167 28 30 ];
+        %tmp.2 = 1000;
+        %tmp.3 = div %tmp.1 %tmp.2;
+        symbol [ toNumber %tmp.4 167 39 47 ];
+        %tmp.4 = getv function %tmp.3 :toNumber;
+        %tmp.5 = invoke %tmp.3 %tmp.4();
+        lputv %totalSeconds.1 %tmp.5;
+        symbol [ totalSeconds %totalSeconds.1 167 12 24 ];
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 168 8 ]
+        [ "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_166_51_176_4_start" "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_166_51_176_4_stop" ]
+        %hours.2 = local;
+        symbol [ hours %hours.2 168 12 17 ];
+        %tmp.6 = lgetv %totalSeconds.1;
+        symbol [ totalSeconds %tmp.6 168 21 33 ];
+        %tmp.7 = 3600;
+        %tmp.8 = div %tmp.6 %tmp.7;
+        symbol [ toNumber %tmp.9 168 42 50 ];
+        %tmp.9 = getv function %tmp.8 :toNumber;
+        %tmp.10 = invoke %tmp.8 %tmp.9();
+        lputv %hours.2 %tmp.10;
+        symbol [ hours %hours.2 168 12 17 ];
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 169 8 ]
+        [ "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_166_51_176_4_start" "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_166_51_176_4_stop" ]
+        %minutes.3 = local;
+        symbol [ minutes %minutes.3 169 12 19 ];
+        %tmp.11 = lgetv %totalSeconds.1;
+        symbol [ totalSeconds %tmp.11 169 24 36 ];
+        %tmp.12 = 3600;
+        %tmp.13 = mod %tmp.11 %tmp.12;
+        %tmp.14 = 60;
+        %tmp.15 = div %tmp.13 %tmp.14;
+        symbol [ toNumber %tmp.16 169 51 59 ];
+        %tmp.16 = getv function %tmp.15 :toNumber;
+        %tmp.17 = invoke %tmp.15 %tmp.16();
+        lputv %minutes.3 %tmp.17;
+        symbol [ minutes %minutes.3 169 12 19 ];
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 170 8 ]
+        [ "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_166_51_176_4_start" "C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_166_51_176_4_stop" ]
+        %seconds.4 = local;
+        symbol [ seconds %seconds.4 170 12 19 ];
+        %tmp.18 = lgetv %totalSeconds.1;
+        symbol [ totalSeconds %tmp.18 170 23 35 ];
+        %tmp.19 = 60;
+        %tmp.20 = mod %tmp.18 %tmp.19;
+        symbol [ toNumber %tmp.21 170 42 50 ];
+        %tmp.21 = getv function %tmp.20 :toNumber;
+        %tmp.22 = invoke %tmp.20 %tmp.21();
+        lputv %seconds.4 %tmp.22;
+        symbol [ seconds %seconds.4 170 12 19 ];
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 172 8 ]
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_172_8_174_8_if_stmt:
+        %tmp.23 = lgetv %hours.2;
+        symbol [ hours %tmp.23 172 12 17 ];
+        %tmp.24 = 0;
+        %tmp.25 = gt %tmp.23 %tmp.24;
+        bf %tmp.25 @C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_172_8_174_8_if_end;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_172_8_174_8_if_true:
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_172_23_174_8_start:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 173 12 ]
+        %tmp.26 = lgetv %hours.2;
+        symbol [ hours %tmp.26 173 19 24 ];
+        symbol [ format %tmp.27 173 25 31 ];
+        %tmp.27 = getv function %tmp.26 :format;
+        %tmp.28 = "%d";
+        %tmp.29 = invoke %tmp.26 %tmp.27(%tmp.28);
+        %tmp.30 = ":";
+        %tmp.31 = add %tmp.29 %tmp.30;
+        %tmp.32 = lgetv %minutes.3;
+        symbol [ minutes %tmp.32 173 46 53 ];
+        symbol [ format %tmp.33 173 54 60 ];
+        %tmp.33 = getv function %tmp.32 :format;
+        %tmp.34 = "%02d";
+        %tmp.35 = invoke %tmp.32 %tmp.33(%tmp.34);
+        %tmp.36 = add %tmp.31 %tmp.35;
+        %tmp.37 = ":";
+        %tmp.38 = add %tmp.36 %tmp.37;
+        %tmp.39 = lgetv %seconds.4;
+        symbol [ seconds %tmp.39 173 77 84 ];
+        symbol [ format %tmp.40 173 85 91 ];
+        %tmp.40 = getv function %tmp.39 :format;
+        %tmp.41 = "%02d";
+        %tmp.42 = invoke %tmp.39 %tmp.40(%tmp.41);
+        %tmp.43 = add %tmp.38 %tmp.42;
+        ret %tmp.43;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_172_23_174_8_stop:
+        goto @C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_172_8_174_8_if_end;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_172_8_174_8_if_end:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 175 8 ]
+        %tmp.44 = lgetv %minutes.3;
+        symbol [ minutes %tmp.44 175 15 22 ];
+        symbol [ format %tmp.45 175 23 29 ];
+        %tmp.45 = getv function %tmp.44 :format;
+        %tmp.46 = "%02d";
+        %tmp.47 = invoke %tmp.44 %tmp.45(%tmp.46);
+        %tmp.48 = ":";
+        %tmp.49 = add %tmp.47 %tmp.48;
+        %tmp.50 = lgetv %seconds.4;
+        symbol [ seconds %tmp.50 175 46 53 ];
+        symbol [ format %tmp.51 175 54 60 ];
+        %tmp.51 = getv function %tmp.50 :format;
+        %tmp.52 = "%02d";
+        %tmp.53 = invoke %tmp.50 %tmp.51(%tmp.52);
+        %tmp.54 = add %tmp.49 %tmp.53;
+        ret %tmp.54;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_166_51_176_4_stop:
+    }
+    [ @file = "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc"; @line = 178; @symbol_functiondef = [showEndConfirmation,178,13,32]; ]
+    function showEndConfirmation() as Void {
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_178_43_184_4_start:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc" 179 8 ]
+        symbol [ WatchUi %tmp.1 179 8 15 ];
+        %tmp.1 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.2 179 16 24 ];
+        %tmp.2 = getv function %tmp.1 :pushView;
+        symbol [ WatchUi %tmp.5 180 16 23 ];
+        %tmp.5 = getm $.Toybox.WatchUi;
+        symbol [ Confirmation %tmp.6 180 24 36 ];
+        %tmp.6 = getv function ? %tmp.5 :Confirmation;
+        %tmp.7 = "Save and end workout?";
+        %tmp.3 = newc %tmp.6 (%tmp.7);
+        symbol [ QuickWorkoutEndDelegate %tmp.11 181 16 39 ];
+        %tmp.11 = getv ? :QuickWorkoutEndDelegate;
+        %tmp.8 = newc %tmp.11 ();
+        symbol [ WatchUi %tmp.12 182 12 19 ];
+        %tmp.12 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_IMMEDIATE %tmp.13 182 20 35 ];
+        %tmp.13 = getv %tmp.12 :SLIDE_IMMEDIATE;
+        invoke %tmp.1 %tmp.2(%tmp.3, %tmp.8, %tmp.13);
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutView_mc_178_43_184_4_stop:
+    }
+}
+[ @file = "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutView.mc"; @line = 1; ]
+<init> {
+}

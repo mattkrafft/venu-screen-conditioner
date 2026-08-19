@@ -1,0 +1,67 @@
+[ @file = "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutEndDelegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutEndDelegate.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [System,2,14,20]; ]
+import Toybox.System;
+[ @file = "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutEndDelegate.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [WatchUi,3,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutEndDelegate.mc"; @line = 5; @symbol_classdef = [QuickWorkoutEndDelegate,5,6,29]; @symbol_extends<0> = [WatchUi,5,38,45]; @symbol_extends<1> = [ConfirmationDelegate,5,46,66]; ]
+class QuickWorkoutEndDelegate extends WatchUi.ConfirmationDelegate {
+    [ @file = "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutEndDelegate.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutEndDelegate.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutEndDelegate.mc"; @line = 7; @symbol_functiondef = [initialize,7,13,23]; ]
+    function initialize() as Void {
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutEndDelegate_mc_7_26_9_4_start:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutEndDelegate.mc" 8 8 ]
+        symbol [ ConfirmationDelegate %tmp.2 8 8 28 ];
+        %tmp.2 = getv ? :ConfirmationDelegate;
+        symbol [ initialize %tmp.3 8 29 39 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutEndDelegate_mc_7_26_9_4_stop:
+    }
+    [ @file = "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutEndDelegate.mc"; @line = 11; @symbol_functiondef = [onResponse,11,13,23]; @symbol_param<0> = [response,11,24,32]; @symbol_param<0>_type<0> = [WatchUi,11,36,43]; @symbol_param<0>_type<1> = [Confirm,11,44,51]; @symbol_return<0> = [Boolean,11,56,63]; ]
+    function onResponse(response as WatchUi.Confirm) as Boolean {
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutEndDelegate_mc_11_64_20_4_start:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutEndDelegate.mc" 12 8 ]
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutEndDelegate_mc_12_8_15_8_if_stmt:
+        %tmp.1 = lgetv %response;
+        symbol [ response %tmp.1 12 12 20 ];
+        symbol [ WatchUi %tmp.2 12 24 31 ];
+        %tmp.2 = getm $.Toybox.WatchUi;
+        symbol [ CONFIRM_YES %tmp.3 12 32 43 ];
+        %tmp.3 = getv %tmp.2 :CONFIRM_YES;
+        %tmp.4 = eq %tmp.1 %tmp.3;
+        bf %tmp.4 @C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutEndDelegate_mc_12_8_15_8_if_end;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutEndDelegate_mc_12_8_15_8_if_true:
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutEndDelegate_mc_12_45_15_8_start:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutEndDelegate.mc" 13 12 ]
+        %tmp.5 = self;
+        symbol [ getApp %tmp.6 13 12 18 ];
+        %tmp.6 = getv function %tmp.5 :getApp;
+        %tmp.7 = invoke %tmp.5 %tmp.6();
+        symbol [ saveAndFinish %tmp.8 13 21 34 ];
+        %tmp.8 = getv function %tmp.7 :saveAndFinish;
+        invoke %tmp.7 %tmp.8();
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutEndDelegate.mc" 14 12 ]
+        symbol [ System %tmp.9 14 12 18 ];
+        %tmp.9 = getm $.Toybox.System;
+        symbol [ exit %tmp.10 14 19 23 ];
+        %tmp.10 = getv function %tmp.9 :exit;
+        invoke %tmp.9 %tmp.10();
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutEndDelegate_mc_12_45_15_8_stop:
+        goto @C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutEndDelegate_mc_12_8_15_8_if_end;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutEndDelegate_mc_12_8_15_8_if_end:
+[ "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutEndDelegate.mc" 19 8 ]
+        %tmp.11 = true;
+        ret %tmp.11;
+C__Users_USBAMKT_venu_screen_conditioner_QuickWorkout_QuickWorkout_source_QuickWorkoutEndDelegate_mc_11_64_20_4_stop:
+    }
+}
+[ @file = "C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\source\QuickWorkoutEndDelegate.mc"; @line = 1; ]
+<init> {
+}

@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="C:\Users\USBAMKT\venu-screen-conditioner\QuickWorkout\QuickWorkout\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="1" lineNum="10" parent="globals/QuickWorkoutApp" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="2" lineNum="230" parent="globals" pc="268435479" symbol="getApp"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="2" lineNum="231" parent="globals" pc="268435489" symbol="getApp"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutMenuDelegate.mc" id="3" lineNum="5" parent="globals/QuickWorkoutMenuDelegate" pc="268435505" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="4" lineNum="8" parent="globals/QuickWorkoutView" pc="268435524" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutDelegate.mc" id="5" lineNum="4" parent="globals/QuickWorkoutDelegate" pc="268435543" symbol="&lt;init&gt;"/>
+        <entry filename="c:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\bin\\gen\\006-B3226-00\\source\\Rez.mcgen" id="6" lineNum="7" parent="globals/Rez" pc="268435562" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutEndDelegate.mc" id="7" lineNum="5" parent="globals/QuickWorkoutEndDelegate" pc="268435586" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="8" lineNum="203" parent="globals/QuickWorkoutApp" pc="268435605" symbol="saveAndFinish"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="8" lineNum="204" parent="globals/QuickWorkoutApp" pc="268435607" symbol="saveAndFinish"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="8" lineNum="205" parent="globals/QuickWorkoutApp" pc="268435630" symbol="saveAndFinish"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="8" lineNum="208" parent="globals/QuickWorkoutApp" pc="268435634" symbol="saveAndFinish"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="8" lineNum="210" parent="globals/QuickWorkoutApp" pc="268435646" symbol="saveAndFinish"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="8" lineNum="211" parent="globals/QuickWorkoutApp" pc="268435657" symbol="saveAndFinish"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="8" lineNum="212" parent="globals/QuickWorkoutApp" pc="268435682" symbol="saveAndFinish"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="8" lineNum="213" parent="globals/QuickWorkoutApp" pc="268435700" symbol="saveAndFinish"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="8" lineNum="216" parent="globals/QuickWorkoutApp" pc="268435713" symbol="saveAndFinish"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="8" lineNum="217" parent="globals/QuickWorkoutApp" pc="268435731" symbol="saveAndFinish"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="8" lineNum="218" parent="globals/QuickWorkoutApp" pc="268435740" symbol="saveAndFinish"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="8" lineNum="220" parent="globals/QuickWorkoutApp" pc="268435750" symbol="saveAndFinish"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="8" lineNum="221" parent="globals/QuickWorkoutApp" pc="268435767" symbol="saveAndFinish"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="9" lineNum="45" parent="globals/QuickWorkoutApp" pc="268435790" symbol="loadVitalityTarget"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="9" lineNum="47" parent="globals/QuickWorkoutApp" pc="268435794" symbol="loadVitalityTarget"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="9" lineNum="48" parent="globals/QuickWorkoutApp" pc="268435822" symbol="loadVitalityTarget"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="9" lineNum="49" parent="globals/QuickWorkoutApp" pc="268435861" symbol="loadVitalityTarget"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="9" lineNum="51" parent="globals/QuickWorkoutApp" pc="268435883" symbol="loadVitalityTarget"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="9" lineNum="53" parent="globals/QuickWorkoutApp" pc="268435920" symbol="loadVitalityTarget"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="9" lineNum="54" parent="globals/QuickWorkoutApp" pc="268435924" symbol="loadVitalityTarget"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="9" lineNum="55" parent="globals/QuickWorkoutApp" pc="268435933" symbol="loadVitalityTarget"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="9" lineNum="56" parent="globals/QuickWorkoutApp" pc="268435942" symbol="loadVitalityTarget"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="10" lineNum="168" parent="globals/QuickWorkoutApp" pc="268435964" symbol="getElapsedMs"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="10" lineNum="169" parent="globals/QuickWorkoutApp" pc="268435966" symbol="getElapsedMs"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="10" lineNum="170" parent="globals/QuickWorkoutApp" pc="268435977" symbol="getElapsedMs"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="10" lineNum="172" parent="globals/QuickWorkoutApp" pc="268436001" symbol="getElapsedMs"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="11" lineNum="224" parent="globals/QuickWorkoutApp" pc="268436010" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="11" lineNum="225" parent="globals/QuickWorkoutApp" pc="268436014" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="11" lineNum="226" parent="globals/QuickWorkoutApp" pc="268436038" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="12" lineNum="88" parent="globals/QuickWorkoutApp" pc="268436087" symbol="getHeartRateZone"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="12" lineNum="89" parent="globals/QuickWorkoutApp" pc="268436089" symbol="getHeartRateZone"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="12" lineNum="90" parent="globals/QuickWorkoutApp" pc="268436139" symbol="getHeartRateZone"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="12" lineNum="93" parent="globals/QuickWorkoutApp" pc="268436148" symbol="getHeartRateZone"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="12" lineNum="94" parent="globals/QuickWorkoutApp" pc="268436174" symbol="getHeartRateZone"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="12" lineNum="95" parent="globals/QuickWorkoutApp" pc="268436183" symbol="getHeartRateZone"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="12" lineNum="96" parent="globals/QuickWorkoutApp" pc="268436209" symbol="getHeartRateZone"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="12" lineNum="97" parent="globals/QuickWorkoutApp" pc="268436218" symbol="getHeartRateZone"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="12" lineNum="98" parent="globals/QuickWorkoutApp" pc="268436244" symbol="getHeartRateZone"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="12" lineNum="99" parent="globals/QuickWorkoutApp" pc="268436253" symbol="getHeartRateZone"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="12" lineNum="100" parent="globals/QuickWorkoutApp" pc="268436279" symbol="getHeartRateZone"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="12" lineNum="102" parent="globals/QuickWorkoutApp" pc="268436288" symbol="getHeartRateZone"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="13" lineNum="65" parent="globals/QuickWorkoutApp" pc="268436294" symbol="onSensor"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="13" lineNum="66" parent="globals/QuickWorkoutApp" pc="268436296" symbol="onSensor"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="13" lineNum="68" parent="globals/QuickWorkoutApp" pc="268436312" symbol="onSensor"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="13" lineNum="69" parent="globals/QuickWorkoutApp" pc="268436361" symbol="onSensor"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="13" lineNum="70" parent="globals/QuickWorkoutApp" pc="268436381" symbol="onSensor"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="13" lineNum="71" parent="globals/QuickWorkoutApp" pc="268436393" symbol="onSensor"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="13" lineNum="72" parent="globals/QuickWorkoutApp" pc="268436403" symbol="onSensor"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="13" lineNum="74" parent="globals/QuickWorkoutApp" pc="268436432" symbol="onSensor"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="13" lineNum="75" parent="globals/QuickWorkoutApp" pc="268436443" symbol="onSensor"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="13" lineNum="78" parent="globals/QuickWorkoutApp" pc="268436458" symbol="onSensor"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="13" lineNum="79" parent="globals/QuickWorkoutApp" pc="268436478" symbol="onSensor"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="13" lineNum="80" parent="globals/QuickWorkoutApp" pc="268436490" symbol="onSensor"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="13" lineNum="81" parent="globals/QuickWorkoutApp" pc="268436503" symbol="onSensor"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="13" lineNum="85" parent="globals/QuickWorkoutApp" pc="268436519" symbol="onSensor"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="14" lineNum="34" parent="globals/QuickWorkoutApp" pc="268436536" symbol="onStart"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="14" lineNum="35" parent="globals/QuickWorkoutApp" pc="268436538" symbol="onStart"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="14" lineNum="36" parent="globals/QuickWorkoutApp" pc="268436550" symbol="onStart"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="14" lineNum="37" parent="globals/QuickWorkoutApp" pc="268436562" symbol="onStart"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="15" lineNum="60" parent="globals/QuickWorkoutApp" pc="268436575" symbol="startHeartRate"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="15" lineNum="61" parent="globals/QuickWorkoutApp" pc="268436577" symbol="startHeartRate"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="15" lineNum="62" parent="globals/QuickWorkoutApp" pc="268436612" symbol="startHeartRate"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="16" lineNum="40" parent="globals/QuickWorkoutApp" pc="268436645" symbol="onStop"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="16" lineNum="41" parent="globals/QuickWorkoutApp" pc="268436647" symbol="onStop"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="16" lineNum="42" parent="globals/QuickWorkoutApp" pc="268436664" symbol="onStop"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="17" lineNum="184" parent="globals/QuickWorkoutApp" pc="268436687" symbol="getVitalityMs"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="17" lineNum="185" parent="globals/QuickWorkoutApp" pc="268436691" symbol="getVitalityMs"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="17" lineNum="186" parent="globals/QuickWorkoutApp" pc="268436702" symbol="getVitalityMs"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="17" lineNum="189" parent="globals/QuickWorkoutApp" pc="268436711" symbol="getVitalityMs"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="17" lineNum="190" parent="globals/QuickWorkoutApp" pc="268436721" symbol="getVitalityMs"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="17" lineNum="191" parent="globals/QuickWorkoutApp" pc="268436760" symbol="getVitalityMs"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="17" lineNum="192" parent="globals/QuickWorkoutApp" pc="268436786" symbol="getVitalityMs"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="17" lineNum="193" parent="globals/QuickWorkoutApp" pc="268436797" symbol="getVitalityMs"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="17" lineNum="197" parent="globals/QuickWorkoutApp" pc="268436810" symbol="getVitalityMs"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="17" lineNum="198" parent="globals/QuickWorkoutApp" pc="268436821" symbol="getVitalityMs"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="17" lineNum="200" parent="globals/QuickWorkoutApp" pc="268436830" symbol="getVitalityMs"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="18" lineNum="149" parent="globals/QuickWorkoutApp" pc="268436833" symbol="togglePause"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="18" lineNum="150" parent="globals/QuickWorkoutApp" pc="268436835" symbol="togglePause"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="18" lineNum="151" parent="globals/QuickWorkoutApp" pc="268436858" symbol="togglePause"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="18" lineNum="154" parent="globals/QuickWorkoutApp" pc="268436862" symbol="togglePause"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="18" lineNum="155" parent="globals/QuickWorkoutApp" pc="268436873" symbol="togglePause"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="18" lineNum="156" parent="globals/QuickWorkoutApp" pc="268436898" symbol="togglePause"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="18" lineNum="157" parent="globals/QuickWorkoutApp" pc="268436916" symbol="togglePause"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="18" lineNum="158" parent="globals/QuickWorkoutApp" pc="268436926" symbol="togglePause"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="18" lineNum="160" parent="globals/QuickWorkoutApp" pc="268436941" symbol="togglePause"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="18" lineNum="161" parent="globals/QuickWorkoutApp" pc="268436959" symbol="togglePause"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="18" lineNum="162" parent="globals/QuickWorkoutApp" pc="268436982" symbol="togglePause"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="18" lineNum="165" parent="globals/QuickWorkoutApp" pc="268436992" symbol="togglePause"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="19" lineNum="175" parent="globals/QuickWorkoutApp" pc="268437009" symbol="elapsedSinceRunStart"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="19" lineNum="176" parent="globals/QuickWorkoutApp" pc="268437013" symbol="elapsedSinceRunStart"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="19" lineNum="177" parent="globals/QuickWorkoutApp" pc="268437030" symbol="elapsedSinceRunStart"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="19" lineNum="178" parent="globals/QuickWorkoutApp" pc="268437043" symbol="elapsedSinceRunStart"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="19" lineNum="179" parent="globals/QuickWorkoutApp" pc="268437054" symbol="elapsedSinceRunStart"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="19" lineNum="181" parent="globals/QuickWorkoutApp" pc="268437063" symbol="elapsedSinceRunStart"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="20" lineNum="105" parent="globals/QuickWorkoutApp" pc="268437066" symbol="getCalories"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="20" lineNum="107" parent="globals/QuickWorkoutApp" pc="268437070" symbol="getCalories"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="20" lineNum="108" parent="globals/QuickWorkoutApp" pc="268437087" symbol="getCalories"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="20" lineNum="109" parent="globals/QuickWorkoutApp" pc="268437107" symbol="getCalories"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="20" lineNum="111" parent="globals/QuickWorkoutApp" pc="268437128" symbol="getCalories"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="20" lineNum="113" parent="globals/QuickWorkoutApp" pc="268437144" symbol="getCalories"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="21" lineNum="116" parent="globals/QuickWorkoutApp" pc="268437150" symbol="commitVitalityInterval"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="21" lineNum="117" parent="globals/QuickWorkoutApp" pc="268437154" symbol="commitVitalityInterval"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="21" lineNum="118" parent="globals/QuickWorkoutApp" pc="268437183" symbol="commitVitalityInterval"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="21" lineNum="119" parent="globals/QuickWorkoutApp" pc="268437193" symbol="commitVitalityInterval"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="21" lineNum="120" parent="globals/QuickWorkoutApp" pc="268437206" symbol="commitVitalityInterval"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="21" lineNum="123" parent="globals/QuickWorkoutApp" pc="268437210" symbol="commitVitalityInterval"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="21" lineNum="124" parent="globals/QuickWorkoutApp" pc="268437236" symbol="commitVitalityInterval"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="21" lineNum="125" parent="globals/QuickWorkoutApp" pc="268437247" symbol="commitVitalityInterval"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="21" lineNum="127" parent="globals/QuickWorkoutApp" pc="268437266" symbol="commitVitalityInterval"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="21" lineNum="128" parent="globals/QuickWorkoutApp" pc="268437276" symbol="commitVitalityInterval"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="22" lineNum="30" parent="globals/QuickWorkoutApp" pc="268437290" symbol="initialize"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="22" lineNum="31" parent="globals/QuickWorkoutApp" pc="268437292" symbol="initialize"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="23" lineNum="131" parent="globals/QuickWorkoutApp" pc="268437311" symbol="startWorkout"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="23" lineNum="132" parent="globals/QuickWorkoutApp" pc="268437313" symbol="startWorkout"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="23" lineNum="133" parent="globals/QuickWorkoutApp" pc="268437325" symbol="startWorkout"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="23" lineNum="140" parent="globals/QuickWorkoutApp" pc="268437396" symbol="startWorkout"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="23" lineNum="141" parent="globals/QuickWorkoutApp" pc="268437417" symbol="startWorkout"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="23" lineNum="144" parent="globals/QuickWorkoutApp" pc="268437438" symbol="startWorkout"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="23" lineNum="145" parent="globals/QuickWorkoutApp" pc="268437448" symbol="startWorkout"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutApp.mc" id="23" lineNum="146" parent="globals/QuickWorkoutApp" pc="268437458" symbol="startWorkout"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutMenuDelegate.mc" id="24" lineNum="11" parent="globals/QuickWorkoutMenuDelegate" pc="268437482" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutMenuDelegate.mc" id="24" lineNum="12" parent="globals/QuickWorkoutMenuDelegate" pc="268437484" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutMenuDelegate.mc" id="24" lineNum="13" parent="globals/QuickWorkoutMenuDelegate" pc="268437495" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutMenuDelegate.mc" id="24" lineNum="14" parent="globals/QuickWorkoutMenuDelegate" pc="268437519" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutMenuDelegate.mc" id="24" lineNum="15" parent="globals/QuickWorkoutMenuDelegate" pc="268437530" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutMenuDelegate.mc" id="25" lineNum="7" parent="globals/QuickWorkoutMenuDelegate" pc="268437555" symbol="initialize"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutMenuDelegate.mc" id="25" lineNum="8" parent="globals/QuickWorkoutMenuDelegate" pc="268437557" symbol="initialize"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="26" lineNum="20" parent="globals/QuickWorkoutView" pc="268437576" symbol="onShow"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="26" lineNum="21" parent="globals/QuickWorkoutView" pc="268437578" symbol="onShow"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="26" lineNum="22" parent="globals/QuickWorkoutView" pc="268437596" symbol="onShow"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="27" lineNum="17" parent="globals/QuickWorkoutView" pc="268437638" symbol="onLayout"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="28" lineNum="132" parent="globals/QuickWorkoutView" pc="268437641" symbol="drawVitality"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="28" lineNum="133" parent="globals/QuickWorkoutView" pc="268437645" symbol="drawVitality"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="28" lineNum="134" parent="globals/QuickWorkoutView" pc="268437657" symbol="drawVitality"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="28" lineNum="135" parent="globals/QuickWorkoutView" pc="268437679" symbol="drawVitality"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="28" lineNum="136" parent="globals/QuickWorkoutView" pc="268437713" symbol="drawVitality"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="28" lineNum="139" parent="globals/QuickWorkoutView" pc="268437717" symbol="drawVitality"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="28" lineNum="141" parent="globals/QuickWorkoutView" pc="268437730" symbol="drawVitality"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="28" lineNum="142" parent="globals/QuickWorkoutView" pc="268437741" symbol="drawVitality"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="28" lineNum="143" parent="globals/QuickWorkoutView" pc="268437763" symbol="drawVitality"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="28" lineNum="145" parent="globals/QuickWorkoutView" pc="268437800" symbol="drawVitality"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="28" lineNum="146" parent="globals/QuickWorkoutView" pc="268437822" symbol="drawVitality"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="29" lineNum="60" parent="globals/QuickWorkoutView" pc="268437871" symbol="drawProgressRing"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="29" lineNum="61" parent="globals/QuickWorkoutView" pc="268437875" symbol="drawProgressRing"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="29" lineNum="62" parent="globals/QuickWorkoutView" pc="268437882" symbol="drawProgressRing"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="29" lineNum="63" parent="globals/QuickWorkoutView" pc="268437895" symbol="drawProgressRing"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="29" lineNum="64" parent="globals/QuickWorkoutView" pc="268437920" symbol="drawProgressRing"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="29" lineNum="65" parent="globals/QuickWorkoutView" pc="268437928" symbol="drawProgressRing"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="29" lineNum="68" parent="globals/QuickWorkoutView" pc="268437935" symbol="drawProgressRing"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="29" lineNum="69" parent="globals/QuickWorkoutView" pc="268437942" symbol="drawProgressRing"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="29" lineNum="71" parent="globals/QuickWorkoutView" pc="268437949" symbol="drawProgressRing"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="29" lineNum="72" parent="globals/QuickWorkoutView" pc="268437964" symbol="drawProgressRing"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="29" lineNum="73" parent="globals/QuickWorkoutView" pc="268438001" symbol="drawProgressRing"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="29" lineNum="74" parent="globals/QuickWorkoutView" pc="268438020" symbol="drawProgressRing"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="29" lineNum="76" parent="globals/QuickWorkoutView" pc="268438039" symbol="drawProgressRing"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="29" lineNum="77" parent="globals/QuickWorkoutView" pc="268438058" symbol="drawProgressRing"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="29" lineNum="78" parent="globals/QuickWorkoutView" pc="268438077" symbol="drawProgressRing"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="29" lineNum="79" parent="globals/QuickWorkoutView" pc="268438096" symbol="drawProgressRing"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="29" lineNum="81" parent="globals/QuickWorkoutView" pc="268438115" symbol="drawProgressRing"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="29" lineNum="82" parent="globals/QuickWorkoutView" pc="268438126" symbol="drawProgressRing"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="29" lineNum="83" parent="globals/QuickWorkoutView" pc="268438151" symbol="drawProgressRing"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="29" lineNum="84" parent="globals/QuickWorkoutView" pc="268438159" symbol="drawProgressRing"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="29" lineNum="86" parent="globals/QuickWorkoutView" pc="268438184" symbol="drawProgressRing"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="29" lineNum="89" parent="globals/QuickWorkoutView" pc="268438206" symbol="drawProgressRing"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="30" lineNum="150" parent="globals/QuickWorkoutView" pc="268438240" symbol="formatClock"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="30" lineNum="151" parent="globals/QuickWorkoutView" pc="268438244" symbol="formatClock"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="30" lineNum="152" parent="globals/QuickWorkoutView" pc="268438261" symbol="formatClock"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="30" lineNum="153" parent="globals/QuickWorkoutView" pc="268438271" symbol="formatClock"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="30" lineNum="155" parent="globals/QuickWorkoutView" pc="268438278" symbol="formatClock"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="30" lineNum="156" parent="globals/QuickWorkoutView" pc="268438289" symbol="formatClock"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="30" lineNum="158" parent="globals/QuickWorkoutView" pc="268438299" symbol="formatClock"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="30" lineNum="159" parent="globals/QuickWorkoutView" pc="268438309" symbol="formatClock"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="30" lineNum="160" parent="globals/QuickWorkoutView" pc="268438320" symbol="formatClock"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="30" lineNum="163" parent="globals/QuickWorkoutView" pc="268438330" symbol="formatClock"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="31" lineNum="166" parent="globals/QuickWorkoutView" pc="268438385" symbol="formatElapsed"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="31" lineNum="167" parent="globals/QuickWorkoutView" pc="268438389" symbol="formatElapsed"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="31" lineNum="168" parent="globals/QuickWorkoutView" pc="268438408" symbol="formatElapsed"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="31" lineNum="169" parent="globals/QuickWorkoutView" pc="268438427" symbol="formatElapsed"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="31" lineNum="170" parent="globals/QuickWorkoutView" pc="268438452" symbol="formatElapsed"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="31" lineNum="172" parent="globals/QuickWorkoutView" pc="268438471" symbol="formatElapsed"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="31" lineNum="173" parent="globals/QuickWorkoutView" pc="268438482" symbol="formatElapsed"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="31" lineNum="175" parent="globals/QuickWorkoutView" pc="268438548" symbol="formatElapsed"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="32" lineNum="178" parent="globals/QuickWorkoutView" pc="268438588" symbol="showEndConfirmation"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="32" lineNum="179" parent="globals/QuickWorkoutView" pc="268438590" symbol="showEndConfirmation"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="33" lineNum="98" parent="globals/QuickWorkoutView" pc="268438665" symbol="drawHeartRateAndCalories"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="33" lineNum="99" parent="globals/QuickWorkoutView" pc="268438669" symbol="drawHeartRateAndCalories"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="33" lineNum="100" parent="globals/QuickWorkoutView" pc="268438676" symbol="drawHeartRateAndCalories"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="33" lineNum="101" parent="globals/QuickWorkoutView" pc="268438689" symbol="drawHeartRateAndCalories"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="33" lineNum="104" parent="globals/QuickWorkoutView" pc="268438716" symbol="drawHeartRateAndCalories"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="33" lineNum="105" parent="globals/QuickWorkoutView" pc="268438738" symbol="drawHeartRateAndCalories"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="33" lineNum="106" parent="globals/QuickWorkoutView" pc="268438775" symbol="drawHeartRateAndCalories"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="33" lineNum="108" parent="globals/QuickWorkoutView" pc="268438812" symbol="drawHeartRateAndCalories"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="33" lineNum="109" parent="globals/QuickWorkoutView" pc="268438851" symbol="drawHeartRateAndCalories"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="33" lineNum="111" parent="globals/QuickWorkoutView" pc="268438885" symbol="drawHeartRateAndCalories"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="33" lineNum="112" parent="globals/QuickWorkoutView" pc="268438907" symbol="drawHeartRateAndCalories"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="33" lineNum="114" parent="globals/QuickWorkoutView" pc="268438964" symbol="drawHeartRateAndCalories"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="33" lineNum="115" parent="globals/QuickWorkoutView" pc="268438986" symbol="drawHeartRateAndCalories"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="34" lineNum="118" parent="globals/QuickWorkoutView" pc="268439019" symbol="getHeartRateZoneColor"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="34" lineNum="120" parent="globals/QuickWorkoutView" pc="268439021" symbol="getHeartRateZoneColor"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="34" lineNum="121" parent="globals/QuickWorkoutView" pc="268439032" symbol="getHeartRateZoneColor"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="34" lineNum="122" parent="globals/QuickWorkoutView" pc="268439041" symbol="getHeartRateZoneColor"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="34" lineNum="123" parent="globals/QuickWorkoutView" pc="268439052" symbol="getHeartRateZoneColor"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="34" lineNum="124" parent="globals/QuickWorkoutView" pc="268439061" symbol="getHeartRateZoneColor"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="34" lineNum="125" parent="globals/QuickWorkoutView" pc="268439072" symbol="getHeartRateZoneColor"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="34" lineNum="126" parent="globals/QuickWorkoutView" pc="268439081" symbol="getHeartRateZoneColor"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="34" lineNum="127" parent="globals/QuickWorkoutView" pc="268439092" symbol="getHeartRateZoneColor"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="34" lineNum="129" parent="globals/QuickWorkoutView" pc="268439101" symbol="getHeartRateZoneColor"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="35" lineNum="12" parent="globals/QuickWorkoutView" pc="268439107" symbol="initialize"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="35" lineNum="13" parent="globals/QuickWorkoutView" pc="268439109" symbol="initialize"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="35" lineNum="14" parent="globals/QuickWorkoutView" pc="268439127" symbol="initialize"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="36" lineNum="25" parent="globals/QuickWorkoutView" pc="268439162" symbol="onHide"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="36" lineNum="26" parent="globals/QuickWorkoutView" pc="268439164" symbol="onHide"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="37" lineNum="33" parent="globals/QuickWorkoutView" pc="268439183" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="37" lineNum="34" parent="globals/QuickWorkoutView" pc="268439187" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="37" lineNum="35" parent="globals/QuickWorkoutView" pc="268439200" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="37" lineNum="36" parent="globals/QuickWorkoutView" pc="268439213" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="37" lineNum="37" parent="globals/QuickWorkoutView" pc="268439223" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="37" lineNum="38" parent="globals/QuickWorkoutView" pc="268439233" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="37" lineNum="40" parent="globals/QuickWorkoutView" pc="268439246" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="37" lineNum="41" parent="globals/QuickWorkoutView" pc="268439268" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="37" lineNum="43" parent="globals/QuickWorkoutView" pc="268439280" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="37" lineNum="45" parent="globals/QuickWorkoutView" pc="268439300" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="37" lineNum="46" parent="globals/QuickWorkoutView" pc="268439322" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="37" lineNum="48" parent="globals/QuickWorkoutView" pc="268439362" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="37" lineNum="51" parent="globals/QuickWorkoutView" pc="268439381" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="37" lineNum="52" parent="globals/QuickWorkoutView" pc="268439422" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="37" lineNum="54" parent="globals/QuickWorkoutView" pc="268439473" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="37" lineNum="55" parent="globals/QuickWorkoutView" pc="268439492" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="37" lineNum="56" parent="globals/QuickWorkoutView" pc="268439508" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="37" lineNum="57" parent="globals/QuickWorkoutView" pc="268439527" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="38" lineNum="93" parent="globals/QuickWorkoutView" pc="268439546" symbol="drawDivider"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="38" lineNum="94" parent="globals/QuickWorkoutView" pc="268439548" symbol="drawDivider"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="38" lineNum="95" parent="globals/QuickWorkoutView" pc="268439570" symbol="drawDivider"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="39" lineNum="29" parent="globals/QuickWorkoutView" pc="268439597" symbol="onTimer"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutView.mc" id="39" lineNum="30" parent="globals/QuickWorkoutView" pc="268439599" symbol="onTimer"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutDelegate.mc" id="40" lineNum="31" parent="globals/QuickWorkoutDelegate" pc="268439616" symbol="onBack"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutDelegate.mc" id="40" lineNum="32" parent="globals/QuickWorkoutDelegate" pc="268439618" symbol="onBack"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutDelegate.mc" id="40" lineNum="33" parent="globals/QuickWorkoutDelegate" pc="268439636" symbol="onBack"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutDelegate.mc" id="41" lineNum="25" parent="globals/QuickWorkoutDelegate" pc="268439639" symbol="onMenu"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutDelegate.mc" id="41" lineNum="26" parent="globals/QuickWorkoutDelegate" pc="268439641" symbol="onMenu"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutDelegate.mc" id="41" lineNum="27" parent="globals/QuickWorkoutDelegate" pc="268439662" symbol="onMenu"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutDelegate.mc" id="42" lineNum="8" parent="globals/QuickWorkoutDelegate" pc="268439665" symbol="initialize"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutDelegate.mc" id="42" lineNum="9" parent="globals/QuickWorkoutDelegate" pc="268439667" symbol="initialize"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutDelegate.mc" id="42" lineNum="10" parent="globals/QuickWorkoutDelegate" pc="268439685" symbol="initialize"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutDelegate.mc" id="43" lineNum="14" parent="globals/QuickWorkoutDelegate" pc="268439696" symbol="onTap"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutDelegate.mc" id="43" lineNum="15" parent="globals/QuickWorkoutDelegate" pc="268439698" symbol="onTap"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutDelegate.mc" id="44" lineNum="19" parent="globals/QuickWorkoutDelegate" pc="268439701" symbol="onSelect"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutDelegate.mc" id="44" lineNum="20" parent="globals/QuickWorkoutDelegate" pc="268439703" symbol="onSelect"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutDelegate.mc" id="44" lineNum="21" parent="globals/QuickWorkoutDelegate" pc="268439724" symbol="onSelect"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutEndDelegate.mc" id="45" lineNum="11" parent="globals/QuickWorkoutEndDelegate" pc="268439727" symbol="onResponse"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutEndDelegate.mc" id="45" lineNum="12" parent="globals/QuickWorkoutEndDelegate" pc="268439729" symbol="onResponse"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutEndDelegate.mc" id="45" lineNum="13" parent="globals/QuickWorkoutEndDelegate" pc="268439740" symbol="onResponse"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutEndDelegate.mc" id="45" lineNum="14" parent="globals/QuickWorkoutEndDelegate" pc="268439761" symbol="onResponse"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutEndDelegate.mc" id="45" lineNum="19" parent="globals/QuickWorkoutEndDelegate" pc="268439780" symbol="onResponse"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutEndDelegate.mc" id="46" lineNum="7" parent="globals/QuickWorkoutEndDelegate" pc="268439783" symbol="initialize"/>
+        <entry filename="C:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\source\\QuickWorkoutEndDelegate.mc" id="46" lineNum="8" parent="globals/QuickWorkoutEndDelegate" pc="268439785" symbol="initialize"/>
+        <entry filename="c:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\bin\\gen\\006-B3226-00\\source\\Rez.mcgen" id="47" lineNum="14" parent="globals/Rez/Layouts" pc="268439804" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\bin\\gen\\006-B3226-00\\source\\Rez.mcgen" id="47" lineNum="15" parent="globals/Rez/Layouts" pc="268439816" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\bin\\gen\\006-B3226-00\\source\\Rez.mcgen" id="47" lineNum="17" parent="globals/Rez/Layouts" pc="268439829" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\bin\\gen\\006-B3226-00\\source\\Rez.mcgen" id="47" lineNum="19" parent="globals/Rez/Layouts" pc="268439963" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\bin\\gen\\006-B3226-00\\source\\Rez.mcgen" id="47" lineNum="20" parent="globals/Rez/Layouts" pc="268440068" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\bin\\gen\\006-B3226-00\\source\\Rez.mcgen" id="47" lineNum="22" parent="globals/Rez/Layouts" pc="268440105" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\bin\\gen\\006-B3226-00\\source\\Rez.mcgen" id="48" lineNum="27" parent="globals/Rez/Menus/MainMenu" pc="268440132" symbol="&lt;init&gt;"/>
+        <entry filename="c:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\bin\\gen\\006-B3226-00\\source\\Rez.mcgen" id="49" lineNum="28" parent="globals/Rez/Menus/MainMenu" pc="268440151" symbol="initialize"/>
+        <entry filename="c:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\bin\\gen\\006-B3226-00\\source\\Rez.mcgen" id="49" lineNum="29" parent="globals/Rez/Menus/MainMenu" pc="268440153" symbol="initialize"/>
+        <entry filename="c:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\bin\\gen\\006-B3226-00\\source\\Rez.mcgen" id="49" lineNum="30" parent="globals/Rez/Menus/MainMenu" pc="268440171" symbol="initialize"/>
+        <entry filename="c:\\Users\\USBAMKT\\venu-screen-conditioner\\QuickWorkout\\QuickWorkout\\bin\\gen\\006-B3226-00\\source\\Rez.mcgen" id="49" lineNum="31" parent="globals/Rez/Menus/MainMenu" pc="268440227" symbol="initialize"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry field="true" id="25" symbol="runStartedMs"/>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry field="true" id="8389346" symbol="text"/>
+        <entry id="45" method="true" symbol="showEndConfirmation"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry field="true" id="32" symbol="vitalityAccumulatedMs"/>
+        <entry id="5" module="true" symbol="globals/Rez/Menus"/>
+        <entry id="21" method="true" symbol="getVitalityMs"/>
+        <entry id="8388638" module="true" symbol="ActivityRecording"/>
+        <entry id="51" method="true" symbol="MainLayout"/>
+        <entry field="true" id="8388890" symbol="sport"/>
+        <entry id="8" object="true" symbol="QuickWorkoutDelegate"/>
+        <entry id="27" method="true" symbol="saveAndFinish"/>
+        <entry id="19" method="true" symbol="getElapsedMs"/>
+        <entry id="8388647" module="true" symbol="UserProfile"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry id="8389108" method="true" symbol="onResponse"/>
+        <entry field="true" id="53" symbol="AppName"/>
+        <entry id="7" object="true" symbol="QuickWorkoutApp"/>
+        <entry id="6" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8389080" method="true" symbol="onMenu"/>
+        <entry id="8389345" symbol="rezId"/>
+        <entry field="true" id="33" symbol="vitalityAchieved"/>
+        <entry id="8388631" module="true" symbol="Activity"/>
+        <entry field="true" id="13" symbol="aboveThreshold"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="8389081" method="true" symbol="onBack"/>
+        <entry id="30" method="true" symbol="startWorkout"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry field="true" id="56" symbol="prompt"/>
+        <entry field="true" id="50" symbol="id_monkey"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry field="true" id="35" symbol="vitalityThreshold"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="18" method="true" symbol="getCalories"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="58" symbol="item_2"/>
+        <entry id="57" symbol="item_1"/>
+        <entry id="48" module="true" symbol="Menus"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+        <entry field="true" id="12" symbol="VITALITY_GOAL_MS"/>
+        <entry field="true" id="22" symbol="heartRateZones"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="41" method="true" symbol="formatClock"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry id="8389098" method="true" symbol="onTap"/>
+        <entry field="true" id="36" symbol="_timer"/>
+        <entry id="10" object="true" symbol="QuickWorkoutMenuDelegate"/>
+        <entry id="23" method="true" symbol="loadVitalityTarget"/>
+        <entry id="20" method="true" symbol="getHeartRateZone"/>
+        <entry id="11" object="true" symbol="QuickWorkoutView"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="43" method="true" symbol="getHeartRateZoneColor"/>
+        <entry id="52" object="true" symbol="MainMenu"/>
+        <entry field="true" id="14" symbol="accumulatedMs"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8389619" method="true" symbol="onSelect"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry field="true" id="26" symbol="running"/>
+        <entry id="42" method="true" symbol="formatElapsed"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="24" method="true" symbol="onSensor"/>
+        <entry field="true" id="49" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="8388643" module="true" symbol="Sensor"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry field="true" id="34" symbol="vitalityStartedMs"/>
+        <entry id="9" object="true" symbol="QuickWorkoutEndDelegate"/>
+        <entry field="true" id="46" symbol="_view"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="15" method="true" symbol="commitVitalityInterval"/>
+        <entry field="true" id="8388749" symbol="maxHeartRate"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry field="true" id="8388891" symbol="subSport"/>
+        <entry field="true" id="8388892" symbol="name"/>
+        <entry id="8388641" module="true" symbol="Math"/>
+        <entry field="true" id="8388747" symbol="currentHeartRate"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="8389109" method="true" symbol="onMenuItem"/>
+        <entry field="true" id="8389347" symbol="color"/>
+        <entry id="29" method="true" symbol="startHeartRate"/>
+        <entry id="8388646" module="true" object="true" symbol="Timer"/>
+        <entry id="47" module="true" symbol="Layouts"/>
+        <entry id="39" method="true" symbol="drawProgressRing"/>
+        <entry id="38" method="true" symbol="drawHeartRateAndCalories"/>
+        <entry id="16" method="true" symbol="elapsedSinceRunStart"/>
+        <entry id="40" method="true" symbol="drawVitality"/>
+        <entry field="true" id="17" symbol="finished"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="31" method="true" symbol="togglePause"/>
+        <entry field="true" id="28" symbol="session"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry id="44" method="true" symbol="onTimer"/>
+        <entry id="37" method="true" symbol="drawDivider"/>
+        <entry field="true" id="55" symbol="menu_label_2"/>
+        <entry field="true" id="54" symbol="menu_label_1"/>
+    </symbolTable>
+    <localVars>
+        <entry endPc="268435957" name="e" stackId="1" startPc="268435920"/>
+        <entry endPc="268436086" name="view" stackId="1" startPc="268436014"/>
+        <entry arg="true" endPc="268436535" name="info" stackId="1" startPc="268436294"/>
+        <entry arg="true" endPc="268436574" name="state" stackId="1" startPc="268436536"/>
+        <entry arg="true" endPc="268436686" name="state" stackId="1" startPc="268436645"/>
+        <entry endPc="268436832" name="total" stackId="1" startPc="268436691"/>
+        <entry endPc="268436806" name="delta" stackId="2" startPc="268436760"/>
+        <entry endPc="268437065" name="now" stackId="1" startPc="268437013"/>
+        <entry endPc="268437065" name="delta" stackId="2" startPc="268437013"/>
+        <entry endPc="268437121" name="info" stackId="1" startPc="268437070"/>
+        <entry endPc="268437138" name="e" stackId="2" startPc="268437128"/>
+        <entry endPc="268437288" name="delta" stackId="1" startPc="268437154"/>
+        <entry arg="true" endPc="268437554" name="item" stackId="1" startPc="268437482"/>
+        <entry arg="true" endPc="268437870" name="dc" stackId="1" startPc="268437641"/>
+        <entry arg="true" endPc="268437870" name="app" stackId="2" startPc="268437641"/>
+        <entry arg="true" endPc="268437870" name="centerX" stackId="3" startPc="268437641"/>
+        <entry endPc="268437869" name="vitalityMs" stackId="4" startPc="268437645"/>
+        <entry arg="true" endPc="268438239" name="dc" stackId="1" startPc="268437871"/>
+        <entry arg="true" endPc="268438239" name="app" stackId="2" startPc="268437871"/>
+        <entry arg="true" endPc="268438239" name="centerX" stackId="3" startPc="268437871"/>
+        <entry arg="true" endPc="268438239" name="centerY" stackId="4" startPc="268437871"/>
+        <entry endPc="268438238" name="tickCount" stackId="5" startPc="268437875"/>
+        <entry endPc="268438238" name="vitalityMs" stackId="6" startPc="268437875"/>
+        <entry endPc="268438238" name="activeTicks" stackId="7" startPc="268437875"/>
+        <entry endPc="268438238" name="outerRadius" stackId="8" startPc="268437875"/>
+        <entry endPc="268438238" name="innerRadius" stackId="9" startPc="268437875"/>
+        <entry endPc="268438238" name="i" stackId="10" startPc="268437964"/>
+        <entry endPc="268438225" name="angle" stackId="11" startPc="268437964"/>
+        <entry endPc="268438225" name="cosA" stackId="12" startPc="268437964"/>
+        <entry endPc="268438225" name="sinA" stackId="13" startPc="268437964"/>
+        <entry endPc="268438225" name="x1" stackId="14" startPc="268437964"/>
+        <entry endPc="268438225" name="y1" stackId="15" startPc="268437964"/>
+        <entry endPc="268438225" name="x2" stackId="16" startPc="268437964"/>
+        <entry endPc="268438225" name="y2" stackId="17" startPc="268437964"/>
+        <entry endPc="268438384" name="clock" stackId="1" startPc="268438244"/>
+        <entry endPc="268438384" name="hour" stackId="2" startPc="268438244"/>
+        <entry endPc="268438384" name="suffix" stackId="3" startPc="268438244"/>
+        <entry arg="true" endPc="268438587" name="ms" stackId="1" startPc="268438385"/>
+        <entry endPc="268438587" name="totalSeconds" stackId="2" startPc="268438389"/>
+        <entry endPc="268438587" name="hours" stackId="3" startPc="268438389"/>
+        <entry endPc="268438587" name="minutes" stackId="4" startPc="268438389"/>
+        <entry endPc="268438587" name="seconds" stackId="5" startPc="268438389"/>
+        <entry arg="true" endPc="268439018" name="dc" stackId="1" startPc="268438665"/>
+        <entry arg="true" endPc="268439018" name="app" stackId="2" startPc="268438665"/>
+        <entry endPc="268439017" name="hrText" stackId="3" startPc="268438669"/>
+        <entry arg="true" endPc="268439106" name="zone" stackId="1" startPc="268439019"/>
+        <entry arg="true" endPc="268439545" name="dc" stackId="1" startPc="268439183"/>
+        <entry endPc="268439544" name="width" stackId="2" startPc="268439187"/>
+        <entry endPc="268439544" name="height" stackId="3" startPc="268439187"/>
+        <entry endPc="268439544" name="centerX" stackId="4" startPc="268439187"/>
+        <entry endPc="268439544" name="centerY" stackId="5" startPc="268439187"/>
+        <entry endPc="268439544" name="app" stackId="6" startPc="268439187"/>
+        <entry arg="true" endPc="268439596" name="dc" stackId="1" startPc="268439546"/>
+        <entry arg="true" endPc="268439596" name="y" stackId="2" startPc="268439546"/>
+        <entry arg="true" endPc="268439695" name="view" stackId="1" startPc="268439665"/>
+        <entry arg="true" endPc="268439700" name="clickEvent" stackId="1" startPc="268439696"/>
+        <entry arg="true" endPc="268439782" name="response" stackId="1" startPc="268439727"/>
+        <entry arg="true" endPc="268440131" name="dc" stackId="1" startPc="268439804"/>
+        <entry endPc="268440131" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268439816"/>
+        <entry endPc="268440131" name="rez_cmp_local_text_1193959466" stackId="3" startPc="268439816"/>
+        <entry endPc="268440131" name="rez_cmp_local_bitmap_id_monkey" stackId="4" startPc="268439816"/>
+    </localVars>
+    <deviceInfo deviceVersion="3cbcff5b61d759a7585c5fa7606e74c0bd5dfa74" partNumber="006-B3226-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_2"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_1"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="prompt"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="id_monkey"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="71" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/QuickWorkoutApp" offset="166" parentId="globals" symbolId="QuickWorkoutApp" type="class"/>
+        <dataEntry label="globals/QuickWorkoutMenuDelegate" offset="445" parentId="globals" symbolId="QuickWorkoutMenuDelegate" type="class"/>
+        <dataEntry label="globals/QuickWorkoutView" offset="500" parentId="globals" symbolId="QuickWorkoutView" type="class"/>
+        <dataEntry label="globals/QuickWorkoutDelegate" offset="659" parentId="globals" symbolId="QuickWorkoutDelegate" type="class"/>
+        <dataEntry label="globals/Rez" offset="746" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/QuickWorkoutEndDelegate" offset="809" parentId="globals" symbolId="QuickWorkoutEndDelegate" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="864" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="911" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="950" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="989" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/Menus/MainMenu" offset="1052" parentId="Menus" symbolId="MainMenu" type="class"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="QuickWorkoutApp" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435504" name="getApp" startPc="268435479">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435523" name="&lt;init&gt;" parent="QuickWorkoutMenuDelegate" startPc="268435505">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435542" name="&lt;init&gt;" parent="QuickWorkoutView" startPc="268435524">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435561" name="&lt;init&gt;" parent="QuickWorkoutDelegate" startPc="268435543">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435585" name="&lt;init&gt;" parent="Rez" startPc="268435562">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435604" name="&lt;init&gt;" parent="QuickWorkoutEndDelegate" startPc="268435586">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435789" name="saveAndFinish" parent="QuickWorkoutApp" startPc="268435605">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435963" name="loadVitalityTarget" parent="QuickWorkoutApp" startPc="268435790">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436009" name="getElapsedMs" parent="QuickWorkoutApp" startPc="268435964">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436086" name="getInitialView" parent="QuickWorkoutApp" startPc="268436010">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436293" name="getHeartRateZone" parent="QuickWorkoutApp" startPc="268436087">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436535" name="onSensor" parent="QuickWorkoutApp" startPc="268436294">
+            <param id="info"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436574" name="onStart" parent="QuickWorkoutApp" startPc="268436536">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436644" name="startHeartRate" parent="QuickWorkoutApp" startPc="268436575">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436686" name="onStop" parent="QuickWorkoutApp" startPc="268436645">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436832" name="getVitalityMs" parent="QuickWorkoutApp" startPc="268436687">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437008" name="togglePause" parent="QuickWorkoutApp" startPc="268436833">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437065" name="elapsedSinceRunStart" parent="QuickWorkoutApp" startPc="268437009">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437149" name="getCalories" parent="QuickWorkoutApp" startPc="268437066">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437289" name="commitVitalityInterval" parent="QuickWorkoutApp" startPc="268437150">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437310" name="initialize" parent="QuickWorkoutApp" startPc="268437290">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437481" name="startWorkout" parent="QuickWorkoutApp" startPc="268437311">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437554" name="onMenuItem" parent="QuickWorkoutMenuDelegate" startPc="268437482">
+            <param id="item"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437575" name="initialize" parent="QuickWorkoutMenuDelegate" startPc="268437555">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437637" name="onShow" parent="QuickWorkoutView" startPc="268437576">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437640" name="onLayout" parent="QuickWorkoutView" startPc="268437638">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437870" name="drawVitality" parent="QuickWorkoutView" startPc="268437641">
+            <param id="dc"/>
+            <param id="app"/>
+            <param id="centerX"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438239" name="drawProgressRing" parent="QuickWorkoutView" startPc="268437871">
+            <param id="dc"/>
+            <param id="app"/>
+            <param id="centerX"/>
+            <param id="centerY"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438384" name="formatClock" parent="QuickWorkoutView" startPc="268438240">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438587" name="formatElapsed" parent="QuickWorkoutView" startPc="268438385">
+            <param id="ms"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438664" name="showEndConfirmation" parent="QuickWorkoutView" startPc="268438588">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439018" name="drawHeartRateAndCalories" parent="QuickWorkoutView" startPc="268438665">
+            <param id="dc"/>
+            <param id="app"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439106" name="getHeartRateZoneColor" parent="QuickWorkoutView" startPc="268439019">
+            <param id="zone"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439161" name="initialize" parent="QuickWorkoutView" startPc="268439107">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439182" name="onHide" parent="QuickWorkoutView" startPc="268439162">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439545" name="onUpdate" parent="QuickWorkoutView" startPc="268439183">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439596" name="drawDivider" parent="QuickWorkoutView" startPc="268439546">
+            <param id="dc"/>
+            <param id="y"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439615" name="onTimer" parent="QuickWorkoutView" startPc="268439597">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439638" name="onBack" parent="QuickWorkoutDelegate" startPc="268439616">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439664" name="onMenu" parent="QuickWorkoutDelegate" startPc="268439639">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439695" name="initialize" parent="QuickWorkoutDelegate" startPc="268439665">
+            <param id="view"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439700" name="onTap" parent="QuickWorkoutDelegate" startPc="268439696">
+            <param id="clickEvent"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439726" name="onSelect" parent="QuickWorkoutDelegate" startPc="268439701">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439782" name="onResponse" parent="QuickWorkoutEndDelegate" startPc="268439727">
+            <param id="response"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439803" name="initialize" parent="QuickWorkoutEndDelegate" startPc="268439783">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440131" name="MainLayout" parent="Layouts" startPc="268439804">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440150" name="&lt;init&gt;" parent="MainMenu" startPc="268440132">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440283" name="initialize" parent="MainMenu" startPc="268440151">
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>
